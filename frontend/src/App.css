@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
+/* ── Design tokens ── */
+:root {
+  --cream:    #F8F4EE;
+  --sand:     #EDE5D8;
+  --tan:      #C9B89A;
+  --rust:     #B85C38;
+  --ember:    #E07B39;
+  --forest:   #2D4A3E;
+  --pine:     #1A2E26;
+  --charcoal: #1C1C1E;
+  --slate:    #4A5568;
+  --white:    #FFFFFF;
+
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-card: 0 4px 24px rgba(28, 28, 30, 0.08);
+  --shadow-lift: 0 12px 40px rgba(28, 28, 30, 0.14);
+  --transition: 0.22s ease;
+}
+
+/* ── Global reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--charcoal);
+  line-height: 1.6;
+}
+
+/* ── Layout ── */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem 1rem 4rem;
+}
+
+/* ── Header ── */
+.site-header {
+  background: var(--pine);
+  color: var(--cream);
+  padding: 1.2rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 3px solid var(--rust);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+}
+
+.logo-text em {
+  color: var(--ember);
+}
+
+/* ── Footer ── */
+.site-footer {
+  background: var(--pine);
+  color: var(--tan);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+/* ── Cards (IMPORTANT FIX) ── */
+.card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: 1.5rem;
+  width: 100%;
+}
+
+/* ── Typography ── */
+.section-heading {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  color: var(--pine);
+}
+
+.section-sub {
+  color: var(--slate);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* ── Buttons ── */
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-sm);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: var(--rust);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #a04a28;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--forest);
+  color: var(--forest);
+}
+
+.btn-secondary:hover {
+  background: var(--forest);
+  color: white;
+}
+
+/* ── LOADING ── */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid var(--sand);
+  border-top: 4px solid var(--rust);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── RESULTS WRAPPER (FIXED FLEX ISSUES) ── */
+.results-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── CHARTS GRID (CRITICAL FIX) ── */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.chart-card {
+  width: 100%;
+  min-width: 0;
+}
+
+.chart-card h3 {
+  margin-bottom: 1rem;
+  font-family: var(--font-display);
+}
+
+/* ── SAVED LISTINGS ── */
+.saved-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* ── COMPARE PAGE ── */
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .charts-grid,
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── BADGES ── */
+.badge {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}
