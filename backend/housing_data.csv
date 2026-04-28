@@ -1,13 +1,413 @@
-Beds,Baths,SQFT,Price,Zip_Code
-3,2,1500,320000,07008
-4,3,2200,510000,07008
-2,1,900,240000,07008
-3,2,1400,350000,19038
-4,2,2100,480000,19038
-2,1,1000,260000,19038
-1,1,650,850000,10001
-2,2,950,1200000,10001
-3,2,1300,1650000,10001
-2,1,900,650000,95001
-3,2,1600,920000,95001
-4,3,2400,1300000,95001
+Beds,Baths,SQFT,Price,Zip_Code,Address,Property_ID,Property_Type,URL
+5.0,2.0,1920.0,449900.0,19038,"1780 S Limekiln Pike, Glenside, PA 19038",38902860,Unknown,https://www.redfin.com/PA/Glenside/1780-Limekiln-Pike-19038/home/38902860
+3.0,3.0,1480.0,449900.0,19038,"613 Crescent Ave, Glenside, PA 19038",38205270,Unknown,https://www.redfin.com/PA/Glenside/613-Crescent-Ave-19038/home/38205270
+4.0,2.5,3192.0,899000.0,19038,"611 Twickenham Rd, Glenside, PA 19038",38300682,Unknown,https://www.redfin.com/PA/Glenside/611-Twickenham-Rd-19038/home/38300682
+5.0,1.0,4656.0,850000.0,19038,"8618 Caroline Dr, Glenside, PA 19038",38814459,Unknown,https://www.redfin.com/PA/Glenside/8618-Cheltenham-Ave-19038/home/38814459
+4.0,1.0,3447.0,649999.0,19038,"500 W Waverly Rd, Glenside, PA 19038",38303560,Unknown,https://www.redfin.com/PA/Glenside/500-W-Waverly-Rd-19038/home/38303560
+4.0,4.0,3537.0,1499000.0,19038,"8643 Montgomery, Glenside, PA 19038",38830721,Unknown,https://www.redfin.com/PA/Glenside/8643-Montgomery-Ave-19038/home/38830721
+3.0,2.0,4034.0,650000.0,19038,"7702 Cheltenham Ave, Glenside, PA 19038",38814494,Unknown,https://www.redfin.com/PA/Glenside/7702-Cheltenham-Ave-19038/home/38814494
+3.0,3.0,1530.0,685000.0,19038,"201 Glendalough Rd, Glenside, PA 19038",38822721,Unknown,https://www.redfin.com/PA/Glenside/201-Glendalough-Rd-19038/home/38822721
+4.0,3.0,2861.0,499900.0,19038,"795 N Hills Ave, Glenside, PA 19038",38907924,Unknown,https://www.redfin.com/PA/Glenside/795-N-Hills-Ave-19038/home/38907924
+3.0,4.0,1748.0,675000.0,19038,"700 Fraser Rd, Glenside, PA 19038",38820327,Unknown,https://www.redfin.com/PA/Glenside/700-Fraser-Rd-19038/home/38820327
+4.0,4.0,2297.0,635000.0,19038,"1803 Harris Rd, Glenside, PA 19038",38281596,Unknown,https://www.redfin.com/PA/Glenside/1803-Harris-Rd-19038/home/38281596
+4.0,4.0,2708.0,799900.0,19038,"7804 Louise Ln, Glenside, PA 19038",38827604,Unknown,https://www.redfin.com/PA/Glenside/7804-Louise-Ln-19038/home/38827604
+2.0,1.0,1120.0,280000.0,19038,"100 Logan Ave, Glenside, PA 19038",38905500,Unknown,https://www.redfin.com/PA/Glenside/100-Logan-Ave-19038/home/38905500
+3.0,3.0,1205.0,282500.0,19038,"8200 Cheltenham Ave, Glenside, PA 19038",38814469,Unknown,https://www.redfin.com/PA/Glenside/8200-Cheltenham-Ave-19038/home/38814469
+6.0,3.0,2140.0,525000.0,19038,"715 N Easton Rd, Glenside, PA 19038",38207543,Unknown,https://www.redfin.com/PA/Glenside/715-N-Easton-Rd-19038/home/38207543
+3.0,1.0,1353.0,350000.0,19038,"121 Elm Ave, Glenside, PA 19038",38210798,Unknown,https://www.redfin.com/PA/Glenside/121-Elm-Ave-19038/home/38210798
+5.0,2.0,1365.0,425000.0,19038,"436 Penn Ave, Glenside, PA 19038",38239038,Unknown,https://www.redfin.com/PA/Glenside/436-Penn-Ave-19038/home/38239038
+3.0,2.0,1881.0,597500.0,19038,"8407 Hull Dr, Glenside, PA 19038",38825092,Unknown,https://www.redfin.com/PA/Glenside/8407-Hull-Dr-19038/home/38825092
+3.0,3.0,1846.0,560000.0,19038,"113 Jackson Ave, Glenside, PA 19038",38900041,Unknown,https://www.redfin.com/PA/Glenside/113-Jackson-Ave-19038/home/38900041
+4.0,4.0,2278.0,762500.0,19038,"914 Longfield Rd, Glenside, PA 19038",38827720,Unknown,https://www.redfin.com/PA/Glenside/914-Longfield-Rd-19038/home/38827720
+3.0,3.0,1170.0,315000.0,19104,"406 N 42nd St, Philadelphia, PA 19104",38187031,Unknown,https://www.redfin.com/PA/Philadelphia/406-N-42nd-St-19104/home/38187031
+4.0,3.0,1170.0,99900.0,19104,"3956 Melon St, Philadelphia, PA 19104",38669183,Unknown,https://www.redfin.com/PA/Philadelphia/3956-Melon-St-19104/home/38669183
+4.0,4.0,1981.0,325000.0,19104,"3872 Poplar St, Philadelphia, PA 19104",38673400,Unknown,https://www.redfin.com/PA/Philadelphia/3872-Poplar-St-19104/home/38673400
+3.0,3.0,1500.0,195000.0,19104,"4009 Brown St, Philadelphia, PA 19104",38188901,Unknown,https://www.redfin.com/PA/Philadelphia/4009-Brown-St-19104/home/38188901
+3.0,3.0,3100.0,549000.0,19104,"4019 Spring Garden St, Philadelphia, PA 19104",38183735,Unknown,https://www.redfin.com/PA/Philadelphia/4019-Spring-Garden-St-19104/home/38183735
+6.0,5.0,1674.0,275000.0,19104,"3926 Fairmount Ave, Philadelphia, PA 19104",38669155,Unknown,https://www.redfin.com/PA/Philadelphia/3926-Fairmount-Ave-19104/home/38669155
+6.0,2.5,2047.0,529000.0,19104,"3817 Hamilton St, Philadelphia, PA 19104",38662367,Unknown,https://www.redfin.com/PA/Philadelphia/3817-Hamilton-St-19104/home/38662367
+2.0,1.5,666.0,210000.0,19104,"3915 Brandywine St, Philadelphia, PA 19104",39495358,Unknown,https://www.redfin.com/PA/Philadelphia/3915-Brandywine-St-19104/home/39495358
+5.0,2.5,3730.0,1200000.0,19104,"4304-06 Osage Ave, Philadelphia, PA 19104",38741915,Unknown,https://www.redfin.com/PA/Philadelphia/4304-Osage-Ave-19104/home/38741915
+3.0,4.0,1566.0,94900.0,19104,"735 N Holly St, Philadelphia, PA 19104",38187161,Unknown,https://www.redfin.com/PA/Philadelphia/735-N-Holly-St-19104/home/38187161
+6.0,6.0,2712.0,985000.0,19104,"3627 Powelton Ave, Philadelphia, PA 19104",38662733,Unknown,https://www.redfin.com/PA/Philadelphia/3627-Powelton-Ave-19104/home/38662733
+4.0,2.0,1650.0,440000.0,19104,"3633 Warren St, Philadelphia, PA 19104",38660180,Unknown,https://www.redfin.com/PA/Philadelphia/3633-Warren-St-19104/home/38660180
+2.0,2.0,1250.0,129000.0,19104,"804 N Brooklyn St, Philadelphia, PA 19104",38195676,Unknown,https://www.redfin.com/PA/Philadelphia/804-N-Brooklyn-St-19104/home/38195676
+3.0,2.0,1066.0,150000.0,19104,"4211 Parrish St, Philadelphia, PA 19104",38188707,Unknown,https://www.redfin.com/PA/Philadelphia/4211-Parrish-St-19104/home/38188707
+2.0,2.5,2475.0,720000.0,19104,"4408 Locust St, Philadelphia, PA 19104",39476570,Unknown,https://www.redfin.com/PA/Philadelphia/4408-Locust-St-19104/home/39476570
+3.0,2.5,1510.0,409000.0,19104,"322 N 42nd St, Philadelphia, PA 19104",38187017,Unknown,https://www.redfin.com/PA/Philadelphia/322-N-42nd-St-19104/home/38187017
+3.0,1.0,2805.0,689000.0,19104,"4122 Chester Ave, Philadelphia, PA 19104",38739016,Unknown,https://www.redfin.com/PA/Philadelphia/4122-Chester-Ave-19104/home/38739016
+3.0,1.0,1128.0,110000.0,19104,"4231 Parrish St, Philadelphia, PA 19104",38188698,Unknown,https://www.redfin.com/PA/Philadelphia/4231-Parrish-St-19104/home/38188698
+7.0,2.5,1690.0,365000.0,19104,"4113 Spring Garden St, Philadelphia, PA 19104",38184077,Unknown,https://www.redfin.com/PA/Philadelphia/4113-Spring-Garden-St-19104/home/38184077
+3.0,3.0,1374.0,329000.0,19111,"904 Princeton Ave, Philadelphia, PA 19111",39304994,Unknown,https://www.redfin.com/PA/Philadelphia/904-Princeton-Ave-19111/home/39304994
+3.0,3.0,1560.0,355000.0,19111,"8030 Ferndale St, Philadelphia, PA 19111",39436002,Unknown,https://www.redfin.com/PA/Philadelphia/8030-Ferndale-St-19111/home/39436002
+3.0,3.0,1284.0,350000.0,19111,"7611 Central Ave, Philadelphia, PA 19111",39435267,Unknown,https://www.redfin.com/PA/Philadelphia/7611-Central-Ave-19111/home/39435267
+3.0,3.0,1704.0,325000.0,19111,"7960 Frontenac St, Philadelphia, PA 19111",39328014,Unknown,https://www.redfin.com/PA/Philadelphia/7960-Frontenac-St-19111/home/39328014
+2.0,1.0,2072.0,419000.0,19111,"8459 Verree Rd, Philadelphia, PA 19111",39436067,Unknown,https://www.redfin.com/PA/Philadelphia/8459-Verree-Rd-19111/home/39436067
+3.0,3.0,1100.0,228000.0,19111,"239 Higbee St, Philadelphia, PA 19111",38987792,Unknown,https://www.redfin.com/PA/Philadelphia/239-Higbee-St-19111/home/38987792
+3.0,3.0,1700.0,369900.0,19111,"724 Longshore Ave, Philadelphia, PA 19111",39303948,Unknown,https://www.redfin.com/PA/Philadelphia/724-Longshore-Ave-19111/home/39303948
+3.0,3.0,1750.0,389900.0,19111,"7142 Lawndale Ave, Philadelphia, PA 19111",39305753,Unknown,https://www.redfin.com/PA/Philadelphia/7142-Lawndale-Ave-19111/home/39305753
+3.0,3.0,1764.0,435000.0,19111,"1332 Disston St, Philadelphia, PA 19111",39304359,Unknown,https://www.redfin.com/PA/Philadelphia/1332-Disston-St-19111/home/39304359
+3.0,1.5,1056.0,285000.0,19111,"7632 Burholme Ave, Philadelphia, PA 19111",39434973,Unknown,https://www.redfin.com/PA/Philadelphia/7632-Burholme-Ave-19111/home/39434973
+3.0,3.0,1056.0,329900.0,19111,"7635 Burholme Ave, Philadelphia, PA 19111",39434941,Unknown,https://www.redfin.com/PA/Philadelphia/7635-Burholme-Ave-19111/home/39434941
+3.0,3.0,1280.0,245000.0,19111,"1413 Magee Ave, Philadelphia, PA 19111",39302687,Unknown,https://www.redfin.com/PA/Philadelphia/1413-Magee-Ave-19111/home/39302687
+4.0,2.0,1920.0,389900.0,19111,"6500 Algon Ave, Philadelphia, PA 19111",39300714,Unknown,https://www.redfin.com/PA/Philadelphia/6500-Algon-Ave-19111/home/39300714
+3.0,1.0,1152.0,168000.0,19111,"1326 Greeby St, Philadelphia, PA 19111",39300400,Unknown,https://www.redfin.com/PA/Philadelphia/1326-Greeby-St-19111/home/39300400
+3.0,3.0,1940.0,424850.0,19111,"1121 Shelmire Ave, Philadelphia, PA 19111",39331340,Unknown,https://www.redfin.com/PA/Philadelphia/1121-Shelmire-Ave-19111/home/39331340
+3.0,3.0,1440.0,315000.0,19111,"7811 N Fillmore St, Philadelphia, PA 19111",39434699,Unknown,https://www.redfin.com/PA/Philadelphia/7811-Fillmore-St-19111/home/39434699
+3.0,3.0,1020.0,344900.0,19111,"7382 Shelbourne St, Philadelphia, PA 19111",39435625,Unknown,https://www.redfin.com/PA/Philadelphia/7382-Shelbourne-St-19111/home/39435625
+4.0,1.5,1664.0,390000.0,19111,"7531 Watson St, Philadelphia, PA 19111",39435923,Unknown,https://www.redfin.com/PA/Philadelphia/7531-Watson-St-19111/home/39435923
+3.0,3.0,1200.0,185000.0,19111,"7123 Tabor Ave, Philadelphia, PA 19111",39306642,Unknown,https://www.redfin.com/PA/Philadelphia/7123-Tabor-Ave-19111/home/39306642
+4.0,1.0,1122.0,289900.0,19111,"1315 Hale St, Philadelphia, PA 19111",39299287,Unknown,https://www.redfin.com/PA/Philadelphia/1315-Hale-St-19111/home/39299287
+3.0,3.0,1036.0,185000.0,19124,"4412 E Wingohocking St, Philadelphia, PA 19124",38657851,Unknown,https://www.redfin.com/PA/Philadelphia/4412-E-Wingohocking-St-19124/home/38657851
+4.0,3.0,1362.0,220000.0,19124,"854 Foulkrod St, Philadelphia, PA 19124",38962726,Unknown,https://www.redfin.com/PA/Philadelphia/854-Foulkrod-St-19124/home/38962726
+3.0,3.0,1172.0,99900.0,19124,"4735 Worth St, Philadelphia, PA 19124",38643146,Unknown,https://www.redfin.com/PA/Philadelphia/4735-Worth-St-19124/home/38643146
+3.0,2.5,1064.0,264999.0,19124,"4531 Ditman St, Philadelphia, PA 19124",38640472,Unknown,https://www.redfin.com/PA/Philadelphia/4531-Ditman-St-19124/home/38640472
+3.0,1.0,1022.0,225000.0,19124,"873 Granite St, Philadelphia, PA 19124",38965885,Unknown,https://www.redfin.com/PA/Philadelphia/873-Granite-St-19124/home/38965885
+3.0,3.0,1280.0,222500.0,19124,"1738 Margaret, Philadelphia, PA 19124",38632704,Unknown,https://www.redfin.com/PA/Philadelphia/1738-Margaret-St-19124/home/38632704
+3.0,3.0,1022.0,239900.0,19124,"880 Granite St, Philadelphia, PA 19124",38964611,Unknown,https://www.redfin.com/PA/Philadelphia/880-Granite-St-19124/home/38964611
+3.0,3.0,1971.0,265900.0,19124,"4673 Mulberry St, Philadelphia, PA 19124",38637597,Unknown,https://www.redfin.com/PA/Philadelphia/4673-Mulberry-St-19124/home/38637597
+4.0,3.0,1600.0,285000.0,19124,"1515 Overington St, Philadelphia, PA 19124",38633365,Unknown,https://www.redfin.com/PA/Philadelphia/1515-Overington-St-19124/home/38633365
+4.0,3.0,1380.0,150000.0,19124,"1836 Harrison St, Philadelphia, PA 19124",38635896,Unknown,https://www.redfin.com/PA/Philadelphia/1836-Harrison-St-19124/home/38635896
+3.0,1.0,1428.0,285000.0,19124,"4727 Edmund St, Philadelphia, PA 19124",38640357,Unknown,https://www.redfin.com/PA/Philadelphia/4727-Edmund-St-19124/home/38640357
+4.0,4.0,2024.0,155000.0,19124,"1007 Arrott St, Philadelphia, PA 19124",38653996,Unknown,https://www.redfin.com/PA/Philadelphia/1007-Arrott-St-19124/home/38653996
+3.0,4.0,1439.0,149900.0,19124,"4438 Leiper St, Philadelphia, PA 19124",38659852,Unknown,https://www.redfin.com/PA/Philadelphia/4438-Leiper-St-19124/home/38659852
+3.0,3.0,942.0,120000.0,19124,"5243 Hawthorne St, Philadelphia, PA 19124",39433161,Unknown,https://www.redfin.com/PA/Philadelphia/5243-Hawthorne-St-19124/home/39433161
+3.0,2.0,960.0,75000.0,19124,"1435 Church St, Philadelphia, PA 19124",38651047,Unknown,https://www.redfin.com/PA/Philadelphia/1435-Church-St-19124/home/38651047
+2.0,2.0,1070.0,185000.0,19124,"4229 Bennington St, Philadelphia, PA 19124",38901592,Unknown,https://www.redfin.com/PA/Philadelphia/4229-Bennington-St-19124/home/38901592
+3.0,3.0,1470.0,160000.0,19124,"5103 Duffield St, Philadelphia, PA 19124",39432376,Unknown,https://www.redfin.com/PA/Philadelphia/5103-Duffield-St-19124/home/39432376
+3.0,3.0,1000.0,230000.0,19124,"874 Anchor St, Philadelphia, PA 19124",38973087,Unknown,https://www.redfin.com/PA/Philadelphia/874-Anchor-St-19124/home/38973087
+3.0,3.0,1230.0,94000.0,19124,"770 Smylie Rd, Philadelphia, PA 19124",38959788,Unknown,https://www.redfin.com/PA/Philadelphia/770-Smylie-Rd-19124/home/38959788
+3.0,2.0,3292.0,395000.0,19128,"8962-62 Ridge Ave, Philadelphia, PA 19128",40304405,Unknown,https://www.redfin.com/PA/Philadelphia/8962-Ridge-Ave-19128/home/40304405
+3.0,2.0,1117.0,399500.0,19128,"795 Hill Rd, Philadelphia, PA 19128",38572088,Unknown,https://www.redfin.com/PA/Philadelphia/795-Hill-Rd-19128/home/38572088
+3.0,3.0,1440.0,375000.0,19128,"313 Gates St, Philadelphia, PA 19128",38529278,Unknown,https://www.redfin.com/PA/Philadelphia/313-Gates-St-19128/home/38529278
+3.0,2.5,1287.0,430000.0,19128,"369 Livezey St, Philadelphia, PA 19128",38544789,Unknown,https://www.redfin.com/PA/Philadelphia/369-Livezey-St-19128/home/38544789
+3.0,3.0,1773.0,439900.0,19128,"7709 Keiffer St, Philadelphia, PA 19128",38580378,Unknown,https://www.redfin.com/PA/Philadelphia/7709-Keiffer-St-19128/home/38580378
+3.0,3.0,1356.0,300000.0,19128,"740 Cinnaminson St, Philadelphia, PA 19128",38572455,Unknown,https://www.redfin.com/PA/Philadelphia/740-Cinnaminson-St-19128/home/38572455
+3.0,3.0,1842.0,385000.0,19128,"748 Hill Rd, Philadelphia, PA 19128",38572176,Unknown,https://www.redfin.com/PA/Philadelphia/748-Hill-Rd-19128/home/38572176
+3.0,1.0,1900.0,615000.0,19128,"7501 Newland St, Philadelphia, PA 19128",38547999,Unknown,https://www.redfin.com/PA/Philadelphia/7501-Newland-St-19128/home/38547999
+3.0,2.0,1125.0,315000.0,19128,"4334 Fleming St, Philadelphia, PA 19128",38523927,Unknown,https://www.redfin.com/PA/Philadelphia/4334-Fleming-St-19128/home/38523927
+3.0,1.0,1301.0,353000.0,19128,"5430 Vicaris St, Philadelphia, PA 19128",38561406,Unknown,https://www.redfin.com/PA/Philadelphia/5430-Vicaris-St-19128/home/38561406
+2.0,2.0,1083.0,209000.0,19128,"285 Shawmont Ave Unit D, Philadelphia, PA 19128",177313794,Unknown,https://www.redfin.com/PA/Philadelphia/285-Shawmont-Ave-19128/unit-D/home/177313794
+3.0,3.0,1110.0,375000.0,19128,"3867 Manor St, Philadelphia, PA 19128",38526799,Unknown,https://www.redfin.com/PA/Philadelphia/3867-Manor-St-19128/home/38526799
+4.0,4.0,1746.0,449900.0,19128,"6707 Cinnamon Dr, Philadelphia, PA 19128",38550650,Unknown,https://www.redfin.com/PA/Philadelphia/6707-Cinnamon-Dr-19128/home/38550650
+3.0,4.0,1548.0,425000.0,19128,"7242 Valley Ave, Philadelphia, PA 19128",38580101,Unknown,https://www.redfin.com/PA/Philadelphia/7242-Valley-Ave-19128/home/38580101
+2.0,2.0,906.0,319900.0,19128,"374 Fairway Ter, Philadelphia, PA 19128",38542576,Unknown,https://www.redfin.com/PA/Philadelphia/374-Fairway-Ter-19128/home/38542576
+4.0,2.0,3007.0,790000.0,19128,"298 Delmar St Unit B, Philadelphia, PA 19128",195957746,Unknown,https://www.redfin.com/PA/Philadelphia/298-Delmar-St-19128/unit-B/home/195957746
+3.0,3.0,1405.0,425000.0,19128,"674 Wendover St, Philadelphia, PA 19128",38558801,Unknown,https://www.redfin.com/PA/Philadelphia/674-Wendover-St-19128/home/38558801
+4.0,2.5,2166.0,479900.0,19128,"7528 Valley Ave, Philadelphia, PA 19128",38580474,Unknown,https://www.redfin.com/PA/Philadelphia/7528-Valley-Ave-19128/home/38580474
+3.0,3.0,4406.0,675000.0,19128,"580 Wigard Ave, Philadelphia, PA 19128",38574940,Unknown,https://www.redfin.com/PA/Philadelphia/580-Wigard-Ave-19128/home/38574940
+2.0,1.0,3416.0,849900.0,19128,"4359 Fleming St, Philadelphia, PA 19128",38523862,Unknown,https://www.redfin.com/PA/Philadelphia/4359-Fleming-St-19128/home/38523862
+2.0,1.0,845.0,100000.0,15213,"4625 5th Ave #711, Pittsburgh, PA 15213",147535313,Unknown,https://www.redfin.com/PA/Pittsburgh/4625-Fifth-Ave-15213/unit-711/home/147535313
+1.0,1.0,840.0,219900.0,15213,"5 Bayard Rd #810, Pittsburgh, PA 15213",74665138,Unknown,https://www.redfin.com/PA/Pittsburgh/5-Bayard-Rd-15213/unit-810/home/74665138
+3.0,5.0,3555.0,1450000.0,15213,"333 Devonshire, Pittsburgh, PA 15213",74661971,Unknown,https://www.redfin.com/PA/Pittsburgh/333-Devonshire-St-15213/home/74661971
+6.0,3.0,4106.0,1489000.0,15213,"4352 Centre Ave, Pittsburgh, PA 15213",73500354,Unknown,https://www.redfin.com/PA/Pittsburgh/4352-Centre-Ave-15213/home/73500354
+5.0,4.5,5208.0,3600000.0,15213,"400 Devonshire St, Pittsburgh, PA 15213",74664451,Unknown,https://www.redfin.com/PA/Pittsburgh/400-Devonshire-St-15213/home/74664451
+2.0,2.0,1730.0,354900.0,15213,"540 N Neville St #603, Pittsburgh, PA 15213",74665184,Unknown,https://www.redfin.com/PA/Pittsburgh/540-N-Neville-St-15213/unit-603/home/74665184
+3.0,3.0,3242.0,799000.0,15213,"4323 Andover Ter, Pittsburgh, PA 15213",74567447,Unknown,https://www.redfin.com/PA/Pittsburgh/4323-Andover-Ter-15213/home/74567447
+2.0,2.0,1336.0,295000.0,15213,"128 N Craig St #806, Pittsburgh, PA 15213",74664828,Unknown,https://www.redfin.com/PA/Pittsburgh/128-N-Craig-St-15213/unit-806/home/74664828
+3.0,2.0,1680.0,330000.0,15213,"128 N Craig St #303, Pittsburgh, PA 15213",74664775,Unknown,https://www.redfin.com/PA/Pittsburgh/128-N-Craig-St-15213/unit-303/home/74664775
+3.0,3.0,2589.0,895000.0,15213,"220 N Bellefield Ave #1102, Pittsburgh, PA 15213",73535674,Unknown,https://www.redfin.com/PA/Pittsburgh/220-N-Bellefield-Ave-15213/unit-1102/home/73535674
+4.0,3.0,3650.0,400000.0,15213,"142 Robinson, Pittsburgh, PA 15213",74571128,Unknown,https://www.redfin.com/PA/Pittsburgh/142-Robinson-St-15213/home/74571128
+1.0,1.0,1358.0,275000.0,15213,"825 Morewood Ave Ph 2, Pittsburgh, PA 15213",74665554,Unknown,https://www.redfin.com/PA/Pittsburgh/825-Morewood-Ave-15213/unit-2/home/74665554
+1.0,1.0,856.0,189900.0,15213,"5 Bayard Rd #207, Pittsburgh, PA 15213",74664727,Unknown,https://www.redfin.com/PA/Pittsburgh/5-Bayard-Rd-15213/unit-207/home/74664727
+3.0,2.5,1701.0,349900.0,15213,"3211 Joe Hammer Sq, Pittsburgh, PA 15213",74572134,Unknown,https://www.redfin.com/PA/Pittsburgh/3211-Joe-Hammer-Sq-15213/home/74572134
+3.0,2.0,1907.0,575000.0,15213,"3363 Monroe St, Pittsburgh, PA 15213",73500364,Unknown,https://www.redfin.com/PA/Pittsburgh/3363-Monroe-St-15213/home/73500364
+2.0,2.0,1323.0,335000.0,15213,"154 N Bellefield Ave #41, Pittsburgh, PA 15213",104463312,Unknown,https://www.redfin.com/PA/Pittsburgh/154-N-Bellefield-Ave-15213/unit-41/home/104463312
+2.0,1.0,1607.0,375000.0,15213,"220 N Dithridge St #704, Pittsburgh, PA 15213",74567651,Unknown,https://www.redfin.com/PA/Pittsburgh/220-N-Dithridge-St-15213/unit-704/home/74567651
+2.0,1.0,1267.0,284900.0,15213,"128 N Craig St #611, Pittsburgh, PA 15213",73579718,Unknown,https://www.redfin.com/PA/Pittsburgh/128-N-Craig-St-15213/unit-611/home/73579718
+1.0,1.0,880.0,125000.0,15213,"5 Bayard Rd #514, Pittsburgh, PA 15213",74665114,Unknown,https://www.redfin.com/PA/Pittsburgh/5-Bayard-Rd-15213/unit-514/home/74665114
+2.0,2.0,963.0,299000.0,15213,"166 N Dithridge St Unit 5G, Pittsburgh, PA 15213",74567678,Unknown,https://www.redfin.com/PA/Pittsburgh/166-N-Dithridge-St-15213/unit-5G/home/74567678
+3.0,3.0,1996.0,725000.0,15217,"1310 Fairstead Ln, Pittsburgh, PA 15217",74437714,Unknown,https://www.redfin.com/PA/Pittsburgh/1310-Fairstead-Ln-15217/home/74437714
+3.0,6.0,2846.0,599000.0,15217,"602 S Dallas, Pittsburgh, PA 15217",74476502,Unknown,https://www.redfin.com/PA/Pittsburgh/602-S-Dallas-Ave-15217/home/74476502
+4.0,3.0,2168.0,975000.0,15217,"1207 Malvern Ave, Pittsburgh, PA 15217",74665654,Unknown,https://www.redfin.com/PA/Pittsburgh/1207-Malvern-Ave-15217/home/74665654
+3.0,3.0,779.0,599900.0,15217,"5535 Forbes Ave Unit E, Pittsburgh, PA 15217",74751046,Unknown,https://www.redfin.com/PA/Pittsburgh/5535-Forbes-Ave-15217/unit-E/home/74751046
+3.0,1.5,1660.0,325000.0,15217,"3148 Beechwood Blvd, Pittsburgh, PA 15217",74758328,Unknown,https://www.redfin.com/PA/Pittsburgh/3148-Beechwood-Blvd-15217/home/74758328
+3.0,3.0,1692.0,450000.0,15217,"5642 Solway St, Pittsburgh, PA 15217",73509870,Unknown,https://www.redfin.com/PA/Pittsburgh/5642-Solway-St-15217/home/73509870
+3.0,3.0,1368.0,269000.0,15217,"4040 Ludwick, Pittsburgh, PA 15217",73510216,Unknown,https://www.redfin.com/PA/Pittsburgh/4040-Ludwick-St-15217/home/73510216
+2.0,2.0,1100.0,349900.0,15217,"5600 Munhall Rd #309, Pittsburgh, PA 15217",74751836,Unknown,https://www.redfin.com/PA/Pittsburgh/5600-Munhall-Rd-15217/unit-309/home/74751836
+5.0,6.0,5086.0,1385000.0,15217,"5705 Bartlett St, Pittsburgh, PA 15217",74751402,Unknown,https://www.redfin.com/PA/Pittsburgh/5705-Bartlett-St-15217/home/74751402
+5.0,4.0,2600.0,1145000.0,15217,"2205 Beechwood Blvd, Pittsburgh, PA 15217",74477423,Unknown,https://www.redfin.com/PA/Pittsburgh/2205-Beechwood-Blvd-15217/home/74477423
+5.0,4.0,2912.0,1100000.0,15217,"5474 Kipling Rd, Pittsburgh, PA 15217",74749555,Unknown,https://www.redfin.com/PA/Pittsburgh/5474-Kipling-Rd-15217/home/74749555
+5.0,4.0,3494.0,995000.0,15217,"1252 Bellerock St, Pittsburgh, PA 15217",74749738,Unknown,https://www.redfin.com/PA/Pittsburgh/1252-Bellerock-St-15217/home/74749738
+3.0,4.0,4560.0,475000.0,15217,"5644 Beacon St, Pittsburgh, PA 15217",74751478,Unknown,https://www.redfin.com/PA/Pittsburgh/5644-Beacon-St-15217/home/74751478
+3.0,3.0,2613.0,289900.0,15217,"719 Hazelwood Ave, Pittsburgh, PA 15217",74758618,Unknown,https://www.redfin.com/PA/Pittsburgh/719-Hazelwood-Ave-15217/home/74758618
+2.0,2.0,1234.0,240000.0,15217,"5841 Morrowfield Ave #109, Pittsburgh, PA 15217",73583302,Unknown,https://www.redfin.com/PA/Pittsburgh/5841-Morrowfield-Ave-15217/unit-109/home/73583302
+3.0,3.0,1200.0,215000.0,15217,"821 Greenfield Ave, Pittsburgh, PA 15217",73531115,Unknown,https://www.redfin.com/PA/Pittsburgh/821-Greenfield-Ave-15217/home/73531115
+4.0,3.0,1557.0,325000.0,15217,"833 Flemington St, Pittsburgh, PA 15217",74674261,Unknown,https://www.redfin.com/PA/Pittsburgh/833-Flemington-St-15217/home/74674261
+4.0,3.0,1898.0,369900.0,15217,"956 Greenfield Ave, Pittsburgh, PA 15217",74757820,Unknown,https://www.redfin.com/PA/Pittsburgh/956-Greenfield-Ave-15217/home/74757820
+3.0,4.0,5249.0,790000.0,15217,"5708 Solway St, Pittsburgh, PA 15217",74750594,Unknown,https://www.redfin.com/PA/Pittsburgh/5708-Solway-St-15217/home/74750594
+6.0,4.0,9008.0,879000.0,15217,"5633 Northumberland St, Pittsburgh, PA 15217",201072337,Unknown,https://www.redfin.com/PA/Pittsburgh/5633-Northumberland-St-15217/home/201072337
+2.0,2.0,1172.0,295000.0,15222,"306 4th Ave #501, Pittsburgh, PA 15222",74445953,Unknown,https://www.redfin.com/PA/Pittsburgh/306-4th-Ave-15222/unit-501/home/74445953
+2.0,2.0,1357.0,749900.0,15222,"2635 Penn Ave #317, Pittsburgh, PA 15222",182365474,Unknown,https://www.redfin.com/PA/Pittsburgh/2635-Penn-Ave-15222/unit-317/home/182365474
+1.0,1.0,1033.0,229000.0,15222,"320 Fort Duquesne Blvd Unit 7M, Pittsburgh, PA 15222",74533104,Unknown,https://www.redfin.com/PA/Pittsburgh/320-Fort-Duquesne-Blvd-15222/unit-7M/home/74533104
+3.0,2.5,11700.0,4950000.0,15222,"550 Market St Ph, Pittsburgh, PA 15222",177846841,Unknown,https://www.redfin.com/PA/Pittsburgh/550-Market-St-15222/Ph/home/177846841
+2.0,2.0,1172.0,299900.0,15222,"306 4th Ave #1401, Pittsburgh, PA 15222",74445957,Unknown,https://www.redfin.com/PA/Pittsburgh/306-4th-Ave-15222/unit-1401/home/74445957
+1.0,1.0,1639.0,595000.0,15222,"806 Penn Ave #2, Pittsburgh, PA 15222",74445118,Unknown,https://www.redfin.com/PA/Pittsburgh/806-Penn-Ave-15222/unit-2/home/74445118
+2.0,2.0,1216.0,500000.0,15222,"301 5th Ave #518, Pittsburgh, PA 15222",73562984,Unknown,https://www.redfin.com/PA/Pittsburgh/301-5th-Ave-15222/unit-518/home/73562984
+4.0,2.0,1598.0,625000.0,15222,"8 Waterside Pl, Pittsburgh, PA 15222",74561512,Unknown,https://www.redfin.com/PA/Pittsburgh/8-Waterside-Pl-15222/home/74561512
+3.0,3.0,2423.0,850000.0,15222,"7 Waterside Pl, Pittsburgh, PA 15222",74561513,Unknown,https://www.redfin.com/PA/Pittsburgh/7-Waterside-Pl-15222/home/74561513
+3.0,2.5,1598.0,660000.0,15222,"52 Waterfront Dr, Pittsburgh, PA 15222",74561500,Unknown,https://www.redfin.com/PA/Pittsburgh/52-Waterfront-Dr-15222/home/74561500
+2.0,2.0,1647.0,849000.0,15222,"2635 Penn Ave #212, Pittsburgh, PA 15222",170109884,Unknown,https://www.redfin.com/PA/Pittsburgh/2635-Penn-Ave-15222/unit-212/home/170109884
+2.0,1.0,1072.0,450000.0,15222,"2434 Smallman St #416, Pittsburgh, PA 15222",73515317,Unknown,https://www.redfin.com/PA/Pittsburgh/2434-Smallman-St-15222/unit-416/home/73515317
+3.0,2.0,1998.0,759900.0,15222,"59 Waterfront Dr, Pittsburgh, PA 15222",74561436,Unknown,https://www.redfin.com/PA/Pittsburgh/59-Waterfront-Dr-15222/home/74561436
+2.0,2.0,1196.0,700000.0,15222,"2635 Penn Ave #418, Pittsburgh, PA 15222",182389498,Unknown,https://www.redfin.com/PA/Pittsburgh/2635-Penn-Ave-15222/unit-418/home/182389498
+2.0,2.5,2750.0,1950000.0,15222,"824 Liberty Ave #5, Pittsburgh, PA 15222",172324953,Unknown,https://www.redfin.com/PA/Pittsburgh/824-Liberty-Ave-15222/unit-5/home/172324953
+2.0,2.0,1480.0,525000.0,15222,"941 Penn Ave #202, Pittsburgh, PA 15222",74446702,Unknown,https://www.redfin.com/PA/Pittsburgh/941-Penn-Ave-15222/unit-202/home/74446702
+1.0,1.0,1118.0,289000.0,15222,"320 Fort Duquesne Blvd Unit 5F, Pittsburgh, PA 15222",74533096,Unknown,https://www.redfin.com/PA/Pittsburgh/320-Fort-Duquesne-Blvd-15222/unit-5F/home/74533096
+2.0,1.0,1324.0,575000.0,15222,"2434 Smallman St #112, Pittsburgh, PA 15222",73515331,Unknown,https://www.redfin.com/PA/Pittsburgh/2434-Smallman-St-15222/unit-112/home/73515331
+1.0,2.0,1118.0,249900.0,15222,"320 Fort Duquesne Blvd Unit 4F, Pittsburgh, PA 15222",74533061,Unknown,https://www.redfin.com/PA/Pittsburgh/320-Fort-Duquesne-Blvd-15222/unit-4F/home/74533061
+2.0,2.0,1316.0,419500.0,15222,"301 5th Ave #506, Pittsburgh, PA 15222",74445920,Unknown,https://www.redfin.com/PA/Pittsburgh/301-5th-Ave-15222/unit-506/home/74445920
+5.0,6.0,3056.0,1250000.0,15232,"5612 Howe St, Pittsburgh, PA 15232",74749106,Unknown,https://www.redfin.com/PA/Pittsburgh/5612-Howe-St-15232/home/74749106
+4.0,4.0,2748.0,935000.0,15232,"714 Filbert St, Pittsburgh, PA 15232",73529995,Unknown,https://www.redfin.com/PA/Pittsburgh/714-Filbert-St-15232/home/73529995
+5.0,4.0,2783.0,995000.0,15232,"712 Filbert St, Pittsburgh, PA 15232",73529988,Unknown,https://www.redfin.com/PA/Pittsburgh/712-Filbert-St-15232/home/73529988
+5.0,6.0,3915.0,1585000.0,15232,"719 College St, Pittsburgh, PA 15232",74746295,Unknown,https://www.redfin.com/PA/Pittsburgh/719-College-St-15232/home/74746295
+3.0,3.0,1300.0,549672.0,15232,"712 S Aiken Ave, Pittsburgh, PA 15232",113708929,Unknown,https://www.redfin.com/PA/Pittsburgh/712-S-Aiken-Ave-15232/home/113708929
+3.0,2.0,2066.0,699777.0,15232,"523 S Graham St, Pittsburgh, PA 15232",74662014,Unknown,https://www.redfin.com/PA/Pittsburgh/523-S-Graham-St-15232/home/74662014
+3.0,6.0,6098.0,687000.0,15232,"307 S Negley, Pittsburgh, PA 15232",74745320,Unknown,https://www.redfin.com/PA/Pittsburgh/307-S-Negley-Ave-15232/home/74745320
+3.0,5.0,2182.0,825000.0,15232,"Undisclosed Address, Pittsburgh, PA 15232",74665363,Unknown,https://www.redfin.com/PA/Pittsburgh/Undisclosed-address-15232/home/74665363
+1.0,1.0,1358.0,275000.0,15232,"825 Morewood Ave Ph 2, Pittsburgh, PA 15213",74665554,Unknown,https://www.redfin.com/PA/Pittsburgh/825-Morewood-Ave-15213/unit-2/home/74665554
+2.0,3.0,3537.0,1562000.0,15232,"918 S Aiken Ave, Pittsburgh, PA 15232",74665392,Unknown,https://www.redfin.com/PA/Pittsburgh/918-S-Aiken-Ave-15232/home/74665392
+3.0,2.0,1504.0,615000.0,15232,"1 Schoolhouse Ln, Pittsburgh, PA 15232",74665385,Unknown,https://www.redfin.com/PA/Pittsburgh/1-Schoolhouse-Ln-15232/home/74665385
+7.0,6.0,3097.0,850000.0,15232,"5921 Alder St, Pittsburgh, PA 15232",74745802,Unknown,https://www.redfin.com/PA/Pittsburgh/5921-Alder-St-15232/home/74745802
+2.0,4.0,6425.0,1275000.0,15232,"5615 Howe St, Pittsburgh, PA 15232",74749107,Unknown,https://www.redfin.com/PA/Pittsburgh/5615-Howe-St-15232/home/74749107
+2.0,4.0,1860.0,850000.0,15232,"516 Roslyn Pl, Pittsburgh, PA 15232",74662207,Unknown,https://www.redfin.com/PA/Pittsburgh/516-Roslyn-Pl-15232/home/74662207
+7.0,6.0,7556.0,3800000.0,15232,"5238 Ellsworth Ave, Pittsburgh, PA 15232",74665100,Unknown,https://www.redfin.com/PA/Pittsburgh/5238-Ellsworth-Ave-15232/home/74665100
+5.0,6.0,4768.0,2250000.0,15232,"5130 Pembroke Pl, Pittsburgh, PA 15232",74665516,Unknown,https://www.redfin.com/PA/Pittsburgh/5130-Pembroke-Pl-15232/home/74665516
+5.0,2.0,3600.0,1665000.0,15232,"90 E Woodland Rd, Pittsburgh, PA 15232",163859258,Unknown,https://www.redfin.com/PA/Pittsburgh/90-Woodland-Rd-15232/home/163859258
+5.0,3.0,3736.0,2450000.0,15232,"800 Amberson, Pittsburgh, PA 15232",74665510,Unknown,https://www.redfin.com/PA/Pittsburgh/800-Amberson-Ave-15232/home/74665510
+5.0,4.0,2596.0,1025000.0,15232,"702 Bellefonte St, Pittsburgh, PA 15232",73590316,Unknown,https://www.redfin.com/PA/Pittsburgh/702-Bellefonte-St-15232/home/73590316
+4.0,1.0,2148.0,499800.0,16801,"735 Westerly Pkwy, State College, PA 16801",119598481,Unknown,https://www.redfin.com/PA/State-College/735-Westerly-Pkwy-16801/home/119598481
+6.0,3.0,2620.0,449000.0,16801,"222 Fry Dr, State College, PA 16801",119751542,Unknown,https://www.redfin.com/PA/State-College/222-Fry-Dr-16801/home/119751542
+3.0,2.5,2681.0,675000.0,16801,"152 Gas Light Cir, State College, PA 16801",119250737,Unknown,https://www.redfin.com/PA/State-College/152-Gas-Light-Cir-16801/home/119250737
+5.0,4.0,3286.0,867000.0,16801,"120 Meadowsweet Dr, State College, PA 16801",120035131,Unknown,https://www.redfin.com/PA/State-College/120-Meadowsweet-Dr-16801/home/120035131
+3.0,3.0,2358.0,515000.0,16801,"2414 Autumnwood Dr, State College, PA 16801",119673344,Unknown,https://www.redfin.com/PA/State-College/2414-Autumnwood-Dr-16801/home/119673344
+3.0,1.0,2018.0,475000.0,16801,"146 Legion Ln, State College, PA 16801",119552913,Unknown,https://www.redfin.com/PA/State-College/146-Legion-Ln-16801/home/119552913
+4.0,1.0,6820.0,2585000.0,16801,"234 W Fairmount Ave, State College, PA 16801",184171075,Unknown,https://www.redfin.com/PA/State-College/234-W-Fairmount-Ave-16801/home/184171075
+4.0,1.0,4155.0,850000.0,16801,"219 Ronan Dr, State College, PA 16801",119305375,Unknown,https://www.redfin.com/PA/State-College/219-Ronan-Dr-16801/home/119305375
+4.0,1.0,2339.0,625000.0,16801,"316 Homan Ave, State College, PA 16801",119578245,Unknown,https://www.redfin.com/PA/State-College/316-Homan-Ave-16801/home/119578245
+2.0,2.0,2050.0,469000.0,16801,"327 Fry Dr, State College, PA 16801",119515141,Unknown,https://www.redfin.com/PA/State-College/327-Fry-Dr-16801/home/119515141
+2.0,3.0,1360.0,499900.0,16801,"222 S Gill St, State College, PA 16801",119664729,Unknown,https://www.redfin.com/PA/State-College/222-S-Gill-St-16801/home/119664729
+4.0,3.0,992.0,329900.0,16801,"1811 E Branch Rd, State College, PA 16801",119590319,Unknown,https://www.redfin.com/PA/State-College/1811-E-Branch-Rd-16801/home/119590319
+4.0,1.0,2508.0,595900.0,16801,"102 Abbott Ln, State College, PA 16801",119618794,Unknown,https://www.redfin.com/PA/State-College/102-Abbott-Ln-16801/home/119618794
+3.0,1.5,2412.0,399000.0,16801,"1513 E Branch Rd, State College, PA 16801",119268061,Unknown,https://www.redfin.com/PA/State-College/1513-E-Branch-Rd-16801/home/119268061
+3.0,1.0,370.0,235000.0,16801,"255 E Beaver Ave #305, State College, PA 16801",119396599,Unknown,https://www.redfin.com/PA/State-College/255-E-Beaver-Ave-16801/unit-305/home/119396599
+7.0,2.0,3118.0,480000.0,16801,"242 Spring St, State College, PA 16801",119612291,Unknown,https://www.redfin.com/PA/State-College/242-Spring-St-16801/home/119612291
+3.0,2.0,907.0,395000.0,16801,"456 E Beaver Ave #502, State College, PA 16801",119419561,Unknown,https://www.redfin.com/PA/State-College/456-E-Beaver-Ave-16801/unit-502/home/119419561
+2.0,2.0,1020.0,242500.0,16801,"973 Stratford Ct, State College, PA 16801",119352499,Unknown,https://www.redfin.com/PA/State-College/973-Stratford-Ct-16801/home/119352499
+2.0,2.0,960.0,5695000.0,16801,"610-676 Southgate Dr, State College, PA 16801",145088881,Unknown,https://www.redfin.com/PA/State-College/676-Southgate-Dr-16801/home/145088881
+4.0,2.0,2784.0,685000.0,16801,"190 Sussex Dr, State College, PA 16801",160527267,Unknown,https://www.redfin.com/PA/State-College/190-Sussex-Dr-16801/home/160527267
+4.0,4.0,3229.0,1575000.0,16803,"435 Ferguson Ave, State College, PA 16803",119293115,Unknown,https://www.redfin.com/PA/State-College/435-Ferguson-Ave-16803/home/119293115
+3.0,3.0,2175.0,465000.0,16803,"782 Tanager Dr, State College, PA 16803",119533588,Unknown,https://www.redfin.com/PA/State-College/782-Tanager-Dr-16803/home/119533588
+5.0,4.0,2860.0,549900.0,16803,"679 Devonshire Dr, State College, PA 16803",119718415,Unknown,https://www.redfin.com/PA/State-College/679-Devonshire-Dr-16803/home/119718415
+3.0,1.0,3314.0,585000.0,16803,"183 Aeropointe Ln, State College, PA 16803",145088144,Unknown,https://www.redfin.com/PA/State-College/183-Aeropointe-Ln-16803/home/145088144
+3.0,3.0,2893.0,749000.0,16803,"854 Thomas St, State College, PA 16803",119675469,Unknown,https://www.redfin.com/PA/State-College/854-Thomas-St-16803/home/119675469
+5.0,4.0,5220.0,873900.0,16803,"576 E Shadow Ln, State College, PA 16803",119308233,Unknown,https://www.redfin.com/PA/State-College/576-E-Shadow-Ln-16803/home/119308233
+3.0,4.0,1638.0,415000.0,16803,"101 E Aaron Dr, State College, PA 16803",119351580,Unknown,https://www.redfin.com/PA/State-College/101-E-Aaron-Dr-16803/home/119351580
+4.0,1.0,2266.0,374900.0,16803,"2107 Circleville Rd, State College, PA 16803",119648638,Unknown,https://www.redfin.com/PA/State-College/2107-Circleville-Rd-16803/home/119648638
+4.0,2.0,2813.0,499900.0,16803,"773 Cornwall Rd, State College, PA 16803",119708805,Unknown,https://www.redfin.com/PA/State-College/773-Cornwall-Rd-16803/home/119708805
+3.0,1.0,2314.0,525000.0,16803,"113 Aeropointe Ln, State College, PA 16803",145088127,Unknown,https://www.redfin.com/PA/State-College/113-Aeropointe-Ln-16803/home/145088127
+3.0,3.0,1578.0,448000.0,16803,"422 Martin Ter, State College, PA 16803",119367119,Unknown,https://www.redfin.com/PA/State-College/422-Martin-Ter-16803/home/119367119
+3.0,3.0,1845.0,418000.0,16803,"142 G Alma Mater Ct, State College, PA 16803",119734349,Unknown,https://www.redfin.com/PA/State-College/142-Alma-Mater-Ct-16803/unit-G/home/119734349
+4.0,1.0,1929.0,440000.0,16803,"453 Fawn Valley Rd, State College, PA 16803",178420641,Unknown,https://www.redfin.com/PA/State-College/453-Fawn-Valley-Rd-16803/home/178420641
+4.0,2.5,2186.0,450000.0,16803,"620 Fawn Valley Rd, State College, PA 16803",178420692,Unknown,https://www.redfin.com/PA/State-College/620-Fawn-Valley-Rd-16803/home/178420692
+2.0,1.0,1924.0,345000.0,16803,"632 Oakwood Ave Unit B, State College, PA 16803",119505797,Unknown,https://www.redfin.com/PA/State-College/632-Oakwood-Ave-16803/unit-B/home/119505797
+2.0,1.0,2706.0,550000.0,16803,"157 Honors Ln, State College, PA 16803",119917477,Unknown,https://www.redfin.com/PA/State-College/157-Honors-Ln-16803/home/119917477
+3.0,4.0,3056.0,569900.0,16803,"1845 Woodledge Dr, State College, PA 16803",119338170,Unknown,https://www.redfin.com/PA/State-College/1845-Woodledge-Dr-16803/home/119338170
+3.0,3.0,2146.0,389990.0,16803,"230 Abercorn St Lot 307B, State College, PA 16803",201088222,Unknown,https://www.redfin.com/PA/State-College/230-Abercorn-ST-16803/unit-307B/home/201088222
+3.0,2.5,1792.0,415000.0,16803,"273 Fawn Valley Rd, State College, PA 16803",171130466,Unknown,https://www.redfin.com/PA/State-College/273-Fawn-Valley-Rd-16803/home/171130466
+3.0,1.0,1760.0,419990.0,16803,"181 Abercorn St Lot 310B, State College, PA 16803",201086760,Unknown,https://www.redfin.com/PA/State-College/181-Abercorn-ST-16803/unit-310B/home/201086760
+4.0,1.0,1736.0,159999.0,17101,"211 N 2nd St, Harrisburg, PA 17113",123156612,Unknown,https://www.redfin.com/PA/Harrisburg/211-N-2nd-St-17113/home/123156612
+2.0,1.0,780.0,199900.0,17101,"22 S 3rd St #401, Harrisburg, PA 17101",201202629,Unknown,https://www.redfin.com/PA/Harrisburg/22-S-3rd-St-17101/unit-401/home/201202629
+2.0,1.0,780.0,209500.0,17101,"22 S 3rd St #601, Harrisburg, PA 17101",201196328,Unknown,https://www.redfin.com/PA/Harrisburg/22-S-3rd-St-17101/unit-601/home/201196328
+1.0,1.0,663.0,189900.0,17101,"231 State St #204, Harrisburg, PA 17101",123236311,Unknown,https://www.redfin.com/PA/Harrisburg/231-State-St-17101/unit-204/home/123236311
+4.0,2.0,8560.0,995000.0,17101,"315 N Front St, Harrisburg, PA 17101",183798392,Unknown,https://www.redfin.com/PA/Harrisburg/315-N-Front-St-17101/home/183798392
+5.0,4.0,11800.0,1395000.0,17101,"407 N Front St, Harrisburg, PA 17101",194560506,Unknown,https://www.redfin.com/PA/Harrisburg/407-N-Front-St-17101/home/194560506
+1.0,1.0,719.0,204000.0,17101,"231 State St #805, Harrisburg, PA 17101",123674784,Unknown,https://www.redfin.com/PA/Harrisburg/231-State-St-17101/unit-805/home/123674784
+2.0,3.0,4356.0,299000.0,17101,"1330 Derry St, Harrisburg, PA 17104",178425468,Unknown,https://www.redfin.com/PA/Harrisburg/1330-Derry-St-17104/home/178425468
+4.0,1.0,1802.0,265000.0,17101,"321 Walnut St, Lemoyne, PA 17043",121311768,Unknown,https://www.redfin.com/PA/Lemoyne/321-Walnut-St-17043/home/121311768
+1.0,1.0,2310.0,175000.0,17101,"1353 Vernon St, Harrisburg, PA 17104",123874835,Unknown,https://www.redfin.com/PA/Harrisburg/1353-Vernon-St-17104/home/123874835
+3.0,2.5,2143.0,235000.0,17101,"231 Boas St, Harrisburg, PA 17102",123768918,Unknown,https://www.redfin.com/PA/Harrisburg/231-Boas-St-17102/home/123768918
+3.0,1.0,1800.0,225000.0,17101,"524 N 16th St, Harrisburg, PA 17103",123848124,Unknown,https://www.redfin.com/PA/Harrisburg/524-N-16th-St-17103/home/123848124
+2.0,3.0,1410.0,229900.0,17101,"206 Herman Ave, Lemoyne, PA 17043",121481899,Unknown,https://www.redfin.com/PA/Lemoyne/206-Herman-Ave-17043/home/121481899
+2.0,1.0,2794.0,595000.0,17101,"504 Bridgeview Dr, Lemoyne, PA 17043",121397480,Unknown,https://www.redfin.com/PA/Lemoyne/504-Bridgeview-Dr-17043/home/121397480
+3.0,2.0,1557.0,189500.0,17101,"411 Herr St, Harrisburg, PA 17102",122879916,Unknown,https://www.redfin.com/PA/Harrisburg/411-Herr-St-17102/home/122879916
+3.0,2.0,3098.0,399275.0,17101,"568 & 570 Race St, Harrisburg, PA 17104",122555203,Unknown,https://www.redfin.com/PA/Harrisburg/568-Race-St-17104/home/122555203
+3.0,3.0,1794.0,234990.0,17101,"226 Walnut St, Lemoyne, PA 17043",121493534,Unknown,https://www.redfin.com/PA/Lemoyne/226-Walnut-St-17043/home/121493534
+3.0,2.0,2138.0,580000.0,17101,"10 N Front St #201, Wormleysburg, PA 17043",200961705,Unknown,https://www.redfin.com/PA/Wormleysburg/10-N-Front-St-17043/unit-201/home/200961705
+3.0,5.0,1264.0,85000.0,17101,"315 Evergreen St, Harrisburg, PA 17104",122749746,Unknown,https://www.redfin.com/PA/Harrisburg/315-Evergreen-St-17104/home/122749746
+3.0,5.0,1264.0,85000.0,17101,"317 Evergreen St, Harrisburg, PA 17104",123590246,Unknown,https://www.redfin.com/PA/Harrisburg/317-Evergreen-St-17104/home/123590246
+3.0,1.5,1120.0,95000.0,17102,"1411 Fulton St, Harrisburg, PA 17102",123632649,Unknown,https://www.redfin.com/PA/Harrisburg/1411-Fulton-St-17102/home/123632649
+3.0,2.0,1680.0,199900.0,17102,"1617 Penn St, Harrisburg, PA 17102",123948130,Unknown,https://www.redfin.com/PA/Harrisburg/1617-Penn-St-17102/home/123948130
+2.0,1.0,2668.0,299900.0,17102,"1908 Green St, Harrisburg, PA 17102",123400265,Unknown,https://www.redfin.com/PA/Harrisburg/1908-Green-St-17102/home/123400265
+3.0,2.0,2310.0,274900.0,17102,"1931 Green St, Harrisburg, PA 17102",122774448,Unknown,https://www.redfin.com/PA/Harrisburg/1931-Green-St-17102/home/122774448
+3.0,2.5,2143.0,235000.0,17102,"231 Boas St, Harrisburg, PA 17102",123768918,Unknown,https://www.redfin.com/PA/Harrisburg/231-Boas-St-17102/home/123768918
+3.0,1.5,1297.0,165000.0,17102,"1702 N 5th St, Harrisburg, PA 17102",123932968,Unknown,https://www.redfin.com/PA/Harrisburg/1702-N-5th-St-17102/home/123932968
+5.0,2.0,1612.0,119900.0,17102,"427 Muench St, Harrisburg, PA 17102",123515773,Unknown,https://www.redfin.com/PA/Harrisburg/427-Muench-St-17102/home/123515773
+3.0,3.0,1494.0,205000.0,17102,"338 Hamilton St, Harrisburg, PA 17102",123871869,Unknown,https://www.redfin.com/PA/Harrisburg/338-Hamilton-St-17102/home/123871869
+4.0,2.0,1630.0,194400.0,17102,"261 Delaware St, Harrisburg, PA 17102",123464909,Unknown,https://www.redfin.com/PA/Harrisburg/261-Delaware-St-17102/home/123464909
+3.0,2.0,1557.0,189500.0,17102,"411 Herr St, Harrisburg, PA 17102",122879916,Unknown,https://www.redfin.com/PA/Harrisburg/411-Herr-St-17102/home/122879916
+3.0,1.0,1124.0,194900.0,17102,"1425 William St, Harrisburg, PA 17102",122591084,Unknown,https://www.redfin.com/PA/Harrisburg/1425-Williams-St-17102/home/122591084
+5.0,3.0,2214.0,209900.0,17102,"1910 N 3rd St, Harrisburg, PA 17102",123717892,Unknown,https://www.redfin.com/PA/Harrisburg/1910-N-3rd-St-17102/home/123717892
+5.0,1.5,1828.0,175000.0,17102,"2022 Susquehanna St, Harrisburg, PA 17102",123334802,Unknown,https://www.redfin.com/PA/Harrisburg/2022-Susquehanna-St-17102/home/123334802
+3.0,1.0,2572.0,274900.0,17102,"258 Herr St, Harrisburg, PA 17102",122606695,Unknown,https://www.redfin.com/PA/Harrisburg/258-Herr-St-17102/home/122606695
+5.0,2.0,2700.0,415000.0,17102,"1622 N 3rd St, Harrisburg, PA 17102",123856165,Unknown,https://www.redfin.com/PA/Harrisburg/1622-N-3rd-St-17102/home/123856165
+4.0,1.0,1848.0,121900.0,17102,"1525 Penn St, Harrisburg, PA 17102",123399533,Unknown,https://www.redfin.com/PA/Harrisburg/1525-Penn-St-17102/home/123399533
+4.0,4.0,1766.0,200000.0,17102,"215 Briggs St, Harrisburg, PA 17102",123335953,Unknown,https://www.redfin.com/PA/Harrisburg/215-Briggs-St-17102/home/123335953
+4.0,4.0,2857.0,594900.0,17601,"2462 Carriage Dr, Lancaster, PA 17601",130142407,Unknown,https://www.redfin.com/PA/Lancaster/2462-Carriage-Dr-17601/home/130142407
+2.0,4.0,2783.0,685000.0,17601,"1032 Sunwood Ln, Lancaster, PA 17601",129766145,Unknown,https://www.redfin.com/PA/Lancaster/1032-Sunwood-Ln-17601/home/129766145
+3.0,1.0,1635.0,425000.0,17601,"1441 Hollywood, Lancaster, PA 17601",131343316,Unknown,https://www.redfin.com/PA/Lancaster/1441-Hollywood-Dr-17601/home/131343316
+2.0,1.0,3708.0,650000.0,17601,"516 Bald Eagle Ct, Lancaster, PA 17601",131536543,Unknown,https://www.redfin.com/PA/Lancaster/516-Bald-Eagle-Ct-17601/home/131536543
+4.0,2.5,2508.0,475000.0,17601,"911 Jade Ave, Lancaster, PA 17601",131263913,Unknown,https://www.redfin.com/PA/Lancaster/911-Jade-Ave-17601/home/131263913
+2.0,4.0,3468.0,574900.0,17601,"725 Oxford Rd, Lancaster, PA 17601",131264133,Unknown,https://www.redfin.com/PA/Lancaster/725-Oxford-Rd-17601/home/131264133
+4.0,4.0,2798.0,425000.0,17601,"2182 Veumont Dr, Lancaster, PA 17601",131294863,Unknown,https://www.redfin.com/PA/Lancaster/2182-Veumont-Dr-17601/home/131294863
+4.0,1.0,4555.0,675000.0,17601,"2144 Saddleridge Rd, Lancaster, PA 17601",131660077,Unknown,https://www.redfin.com/PA/Lancaster/2144-Saddleridge-Rd-17601/home/131660077
+3.0,3.0,2768.0,289900.0,17601,"138 Meadow Ln, Lancaster, PA 17601",130356628,Unknown,https://www.redfin.com/PA/Lancaster/138-Meadow-Ln-17601/home/130356628
+4.0,3.0,1904.0,550000.0,17601,"1365 Sunset Dr, Lancaster, PA 17601",131437103,Unknown,https://www.redfin.com/PA/Lancaster/1365-Sunset-Dr-17601/home/131437103
+3.0,4.0,1472.0,409900.0,17601,"975 Salisbury Ct, Lancaster, PA 17601",131254256,Unknown,https://www.redfin.com/PA/Lancaster/975-Salisbury-Ct-17601/home/131254256
+2.0,2.0,1505.0,350000.0,17601,"164 E Roseville Rd, Lancaster, PA 17601",131230896,Unknown,https://www.redfin.com/PA/Lancaster/164-E-Roseville-Rd-17601/home/131230896
+4.0,3.5,4024.0,739900.0,17601,"209 Heatherstone Way, Lancaster, PA 17601",130169875,Unknown,https://www.redfin.com/PA/Lancaster/209-Heatherstone-Way-17601/home/130169875
+3.0,3.0,1446.0,334900.0,17601,"3206 Nolt Rd, Lancaster, PA 17601",131603905,Unknown,https://www.redfin.com/PA/Lancaster/3206-Nolt-Rd-17601/home/131603905
+3.0,3.0,1511.0,275000.0,17601,"903 Country Place Dr, Lancaster, PA 17601",131228069,Unknown,https://www.redfin.com/PA/Lancaster/903-Country-Place-Dr-17601/home/131228069
+3.0,3.0,2259.0,345000.0,17601,"974 Hermosa Ave, Lancaster, PA 17601",130722350,Unknown,https://www.redfin.com/PA/Lancaster/974-Hermosa-Ave-17601/home/130722350
+3.0,2.0,1224.0,249900.0,17601,"32 Valleybrook Dr, Lancaster, PA 17601",130263758,Unknown,https://www.redfin.com/PA/Lancaster/32-Valleybrook-Dr-17601/home/130263758
+3.0,1.0,1861.0,399900.0,17601,"825 Darby Ln, Lancaster, PA 17601",131635468,Unknown,https://www.redfin.com/PA/Lancaster/825-Darby-Ln-17601/home/131635468
+4.0,3.0,2168.0,469900.0,17601,"1459 Hammock Way, Lancaster, PA 17601",131667823,Unknown,https://www.redfin.com/PA/Lancaster/1459-Hammock-Way-17601/home/131667823
+1.0,1.0,1581.0,384900.0,18018,"247 W Fairview St, Bethlehem, PA 18018",59196533,Unknown,https://www.redfin.com/PA/Bethlehem/247-W-Fairview-St-18018/home/59196533
+2.0,3.0,1300.0,265000.0,18018,"216 9th Ave, Bethlehem, PA 18018",59194929,Unknown,https://www.redfin.com/PA/Bethlehem/216-9th-Ave-18018/home/59194929
+3.0,3.0,1456.0,215000.0,18018,"1403 Uelen Ct, Bethlehem, PA 18018",69129132,Unknown,https://www.redfin.com/PA/Bethlehem/1403-Uelen-Ct-18018/home/69129132
+2.0,4.0,1428.0,370000.0,18018,"1572 Primrose Ln, Bethlehem, PA 18018",69128900,Unknown,https://www.redfin.com/PA/Bethlehem/1572-Primrose-Ln-18018/home/69128900
+3.0,1.0,1808.0,350000.0,18018,"1714 Elliott Ave, Bethlehem, PA 18018",69130174,Unknown,https://www.redfin.com/PA/Bethlehem/1714-Elliott-Ave-18018/home/69130174
+4.0,4.0,1661.0,278000.0,18018,"525 3rd Ave, Bethlehem, PA 18018",59194518,Unknown,https://www.redfin.com/PA/Bethlehem/525-3rd-Ave-18018/home/59194518
+3.0,3.0,1228.0,319900.0,18018,"520 Pulaski St, Bethlehem, PA 18018",73696856,Unknown,https://www.redfin.com/PA/Bethlehem/520-Pulaski-St-18018/home/73696856
+2.0,1.0,1176.0,314900.0,18018,"714 Fernwood St, Bethlehem, PA 18018",73696987,Unknown,https://www.redfin.com/PA/Bethlehem/714-Fernwood-St-18018/home/73696987
+2.0,2.0,962.0,284900.0,18018,"535 Main St #16, Bethlehem, PA 18018",76762870,Unknown,https://www.redfin.com/PA/Bethlehem/535-Main-St-18018/unit-16/home/76762870
+3.0,3.0,1356.0,327900.0,18018,"2104 Fireside Dr, Bethlehem, PA 18018",69128614,Unknown,https://www.redfin.com/PA/Bethlehem/2104-Fireside-Dr-18018/home/69128614
+4.0,3.0,2176.0,350000.0,18018,"945 Main St, Bethlehem, PA 18018",59172328,Unknown,https://www.redfin.com/PA/Bethlehem/945-Main-St-18018/home/59172328
+3.0,1.0,1672.0,274900.0,18018,"917 High St, Bethlehem, PA 18018",73697117,Unknown,https://www.redfin.com/PA/Bethlehem/917-High-St-18018/home/73697117
+4.0,3.0,1464.0,279000.0,18018,"348 7th Ave, Bethlehem, PA 18018",69127710,Unknown,https://www.redfin.com/PA/Bethlehem/348-7th-Ave-18018/home/69127710
+4.0,3.0,1580.0,359900.0,18018,"345 8th Ave, Bethlehem, PA 18018",59067103,Unknown,https://www.redfin.com/PA/Bethlehem/345-8th-Ave-18018/home/59067103
+2.0,3.0,2048.0,550000.0,18018,"746 Center St, Bethlehem, PA 18018",76762239,Unknown,https://www.redfin.com/PA/Bethlehem/746-Center-St-18018/home/76762239
+4.0,4.0,1550.0,299000.0,18018,"1522 W North St, Bethlehem, PA 18018",59103351,Unknown,https://www.redfin.com/PA/Bethlehem/1522-W-North-St-18018/home/59103351
+2.0,2.0,1702.0,224900.0,18018,"229 W Fairview St, Bethlehem, PA 18018",59105931,Unknown,https://www.redfin.com/PA/Bethlehem/229-W-Fairview-St-18018/home/59105931
+3.0,2.0,1860.0,432000.0,18018,"336 E Market St, Bethlehem, PA 18018",73697016,Unknown,https://www.redfin.com/PA/Bethlehem/336-E-Market-St-18018/home/73697016
+3.0,2.0,912.0,274900.0,18018,"1037 Maple St, Bethlehem, PA 18018",59126501,Unknown,https://www.redfin.com/PA/Bethlehem/1037-Maple-St-18018/home/59126501
+2.0,3.0,2068.0,445000.0,18018,"306 E Broad St, Bethlehem, PA 18018",59199573,Unknown,https://www.redfin.com/PA/Bethlehem/306-E-Broad-St-18018/home/59199573
+4.0,4.0,1600.0,219900.0,18102,"434 W Greenleaf St, Allentown, PA 18102",59076182,Unknown,https://www.redfin.com/PA/Allentown/434-W-Greenleaf-St-18102/home/59076182
+4.0,1.5,2428.0,295000.0,18102,"132 N 11th St, Allentown, PA 18102",59176655,Unknown,https://www.redfin.com/PA/Allentown/132-N-11th-St-18102/home/59176655
+3.0,1.5,1208.0,99900.0,18102,"547 N Silk St, Allentown, PA 18102",59089240,Unknown,https://www.redfin.com/PA/Allentown/547-N-Silk-St-18102/home/59089240
+5.0,4.0,1922.0,250000.0,18102,"436 5th St, Allentown, PA 18102",59091458,Unknown,https://www.redfin.com/PA/Allentown/436-N-5th-St-18102/home/59091458
+5.0,5.0,1834.0,265000.0,18102,"622 N Law St, Allentown, PA 18102",69113366,Unknown,https://www.redfin.com/PA/Allentown/622-N-Law-St-18102/home/69113366
+4.0,1.0,1528.0,269999.0,18102,"824 W Gordon, Allentown, PA 18102",69109735,Unknown,https://www.redfin.com/PA/Allentown/824-W-Gordon-St-18102/home/69109735
+4.0,1.5,1520.0,179900.0,18102,"440 N 4th St, Allentown, PA 18102",59048870,Unknown,https://www.redfin.com/PA/Allentown/440-N-4th-St-18102/home/59048870
+5.0,3.0,1536.0,175000.0,18102,"120 N Poplar St, Allentown, PA 18102",59123842,Unknown,https://www.redfin.com/PA/Allentown/120-N-Poplar-St-18102/home/59123842
+3.0,4.0,1920.0,275000.0,18102,"220 S Madison St, Allentown, PA 18102",59198454,Unknown,https://www.redfin.com/PA/Allentown/220-S-Madison-St-18102/home/59198454
+2.0,5.0,3360.0,345000.0,18102,"46 S 10th St, Allentown, PA 18102",69109556,Unknown,https://www.redfin.com/PA/Allentown/46-S-10th-St-18102/home/69109556
+5.0,5.0,2940.0,465000.0,18102,"230 N 10th St, Allentown, PA 18102",59196233,Unknown,https://www.redfin.com/PA/Allentown/230-N-10th-St-18102/home/59196233
+5.0,5.0,2000.0,255000.0,18102,"306 Ridge Ave, Allentown, PA 18102",59042526,Unknown,https://www.redfin.com/PA/Allentown/306-Ridge-Ave-18102/home/59042526
+1.0,1.0,1368.0,250000.0,18102,"208 N Hall St, Allentown, PA 18102",59129211,Unknown,https://www.redfin.com/PA/Allentown/208-N-Hall-St-18102/home/59129211
+2.0,2.0,1186.0,175000.0,18102,"526 N Fountain St, Allentown, PA 18102",69111673,Unknown,https://www.redfin.com/PA/Allentown/526-N-Fountain-St-18102/home/69111673
+2.0,3.0,1152.0,205000.0,18102,"1141 Emmett St, Allentown, PA 18102",69110654,Unknown,https://www.redfin.com/PA/Allentown/1141-Emmett-St-18102/home/69110654
+2.0,2.0,1032.0,194900.0,18102,"920 Fair St N, Allentown, PA 18102",69113054,Unknown,https://www.redfin.com/PA/Allentown/920-N-Fair-St-18102/home/69113054
+4.0,3.0,1131.0,224900.0,18102,"631 N New, Allentown, PA 18102",59064346,Unknown,https://www.redfin.com/PA/Allentown/631-N-New-St-18102/home/59064346
+4.0,5.0,2176.0,319900.0,18102,"28 S Jefferson St, Allentown, PA 18102",59107171,Unknown,https://www.redfin.com/PA/Allentown/28-S-Jefferson-St-18102/home/59107171
+3.0,3.0,1434.0,275000.0,18102,"1217 W Allen St, Allentown, PA 18104",69112405,Unknown,https://www.redfin.com/PA/Allentown/1217-W-Allen-St-18102/home/69112405
+4.0,4.0,1500.0,189500.0,18503,"435 Saint Francis Cabrini Ave, Scranton, PA 18504",128524646,Unknown,https://www.redfin.com/PA/Scranton/435-Saint-Francis-Cabrini-Ave-18504/home/128524646
+2.0,1.5,1056.0,229900.0,18503,"521 4th Ave, Scranton, PA 18505",128579989,Unknown,https://www.redfin.com/PA/Scranton/521-4th-Ave-18505/home/128579989
+6.0,2.0,1927.0,299990.0,18503,"926 Capouse Ave, Scranton, PA 18509",129232951,Unknown,https://www.redfin.com/PA/Scranton/926-Capouse-Ave-18509/home/129232951
+3.0,1.0,1656.0,147900.0,18503,"1122 Swetland St, Scranton, PA 18504",128872210,Unknown,https://www.redfin.com/PA/Scranton/1122-Swetland-St-18504/home/128872210
+5.0,2.5,4280.0,349000.0,18503,"1220-1222 Schlager St, Scranton, PA 18504",187483184,Unknown,https://www.redfin.com/PA/Scranton/1220-1222-Schlager-St-18504/home/187483184
+2.0,2.0,1200.0,149000.0,18503,"501 Fellows St, Scranton, PA 18504",129153807,Unknown,https://www.redfin.com/PA/Scranton/501-Fellows-St-18504/home/129153807
+1.0,1.5,1300.0,479900.0,18503,"509 Bogart Ct #202, Scranton, PA 18503",145265792,Unknown,https://www.redfin.com/PA/Scranton/509-Bogart-Pl-18503/unit-202/home/145265792
+3.0,1.5,7637.0,579000.0,18503,"1116 1118 Swetland St, Scranton, PA 18504",128460947,Unknown,https://www.redfin.com/PA/Scranton/1116-Swetland-St-18504/home/128460947
+3.0,1.5,1180.0,187700.0,18503,"364 N Hyde Park Ave Unit & 368, Scranton, PA 18504",201110234,Unknown,https://www.redfin.com/PA/Scranton/364-N-Hyde-Park-Ave-18504/unit-368/home/201110234
+3.0,1.5,1580.0,199500.0,18503,"611 Moosic St, Scranton, PA 18505",128789189,Unknown,https://www.redfin.com/PA/Scranton/611-Moosic-St-18505/home/128789189
+2.0,1.5,1214.0,225000.0,18503,"1139 Sanderson Ave, Scranton, PA 18509",129227220,Unknown,https://www.redfin.com/PA/Scranton/1139-Sanderson-Ave-18509/home/129227220
+3.0,2.0,1403.0,139000.0,18503,"131 Prospect Ave, Scranton, PA 18505",129612448,Unknown,https://www.redfin.com/PA/Scranton/131-Prospect-Ave-18505/home/129612448
+3.0,1.0,1800.0,150000.0,18503,"818 Capouse Ave, Scranton, PA 18509",128287430,Unknown,https://www.redfin.com/PA/Scranton/818-Capouse-Ave-18509/home/128287430
+2.0,2.0,1920.0,250000.0,18503,"816 Capouse Ave, Scranton, PA 18509",184179169,Unknown,https://www.redfin.com/PA/Scranton/816-Capouse-Ave-18509/home/184179169
+2.0,2.5,1437.0,239900.0,18503,"1413 Bulwer St, Scranton, PA 18504",128784638,Unknown,https://www.redfin.com/PA/Scranton/1413-Bulwer-St-18504/home/128784638
+2.0,2.0,1020.0,85000.0,18503,"940 Providence Rd, Scranton, PA 18508",129209040,Unknown,https://www.redfin.com/PA/Scranton/940-Providence-Rd-18508/home/129209040
+6.0,2.0,5264.0,299900.0,18503,"724 Court St, Scranton, PA 18508",128748250,Unknown,https://www.redfin.com/PA/Scranton/724-Court-St-18508/home/128748250
+3.0,13.0,5310.0,609900.0,18503,"906 Capouse Ave, Scranton, PA 18509",200521095,Unknown,https://www.redfin.com/PA/Scranton/906-Capouse-Ave-18509/home/200521095
+6.0,2.0,2298.0,259900.0,18503,"240 N Main Ave, Scranton, PA 18504",176671212,Unknown,https://www.redfin.com/PA/Scranton/240-N-Main-Ave-18504/home/176671212
+3.0,1.5,9000.0,820000.0,18503,"622 Jefferson Ave, Scranton, PA 18510",128859517,Unknown,https://www.redfin.com/PA/Scranton/622-Jefferson-Ave-18510/home/128859517
+5.0,3.0,2084.0,179999.0,19601,"214 Douglass St, Reading, PA 19601",38227568,Unknown,https://www.redfin.com/PA/Reading/214-Douglass-St-19601/home/38227568
+4.0,4.0,1462.0,210000.0,19601,"816 Schuylkill Ave, Reading, PA 19601",38234171,Unknown,https://www.redfin.com/PA/Reading/816-Schuylkill-Ave-19601/home/38234171
+3.0,3.0,1265.0,239900.0,19601,"42 N 11th St, Reading, PA 19601",38204149,Unknown,https://www.redfin.com/PA/Reading/42-N-11th-St-19601/home/38204149
+5.0,3.0,1830.0,225000.0,19601,"304 N 4th St, Reading, PA 19601",38200281,Unknown,https://www.redfin.com/PA/Reading/304-N-4th-St-19601/home/38200281
+5.0,2.0,2172.0,210000.0,19601,"911 N Front St, Reading, PA 19601",38231759,Unknown,https://www.redfin.com/PA/Reading/911-N-Front-St-19601/home/38231759
+1.0,1.0,1663.0,229900.0,19601,"113 W Oley St, Reading, PA 19601",38236610,Unknown,https://www.redfin.com/PA/Reading/113-W-Oley-St-19601/home/38236610
+2.0,1.0,3575.0,575000.0,19601,"311 Green Ln, Reading, PA 19601",38314638,Unknown,https://www.redfin.com/PA/Reading/311-Green-Ln-19601/home/38314638
+5.0,2.0,2444.0,180000.0,19601,"416 Spring St, Reading, PA 19601",38225883,Unknown,https://www.redfin.com/PA/Reading/416-Spring-St-19601/home/38225883
+8.0,6.0,3385.0,385000.0,19601,"400 N 5th St, Reading, PA 19601",38200464,Unknown,https://www.redfin.com/PA/Reading/400-N-5th-St-19601/home/38200464
+6.0,2.0,1490.0,199900.0,19601,"1330 Church St, Reading, PA 19601",38224795,Unknown,https://www.redfin.com/PA/Reading/1330-Church-St-19601/home/38224795
+4.0,1.0,774.0,90000.0,19601,"233 Hudson St, Reading, PA 19601",38229279,Unknown,https://www.redfin.com/PA/Reading/233-Hudson-St-19601/home/38229279
+2.0,1.0,774.0,125000.0,19601,"235 Hudson St, Reading, PA 19601",38229278,Unknown,https://www.redfin.com/PA/Reading/235-Hudson-St-19601/home/38229278
+3.0,3.0,768.0,115000.0,19601,"518 Johnson St, Reading, PA 19601",38238862,Unknown,https://www.redfin.com/PA/Reading/518-Johnson-St-19601/home/38238862
+5.0,2.5,3200.0,295000.0,19601,"334 Mcknight St, Reading, PA 19601",193315384,Unknown,https://www.redfin.com/PA/Reading/334-McKnight-St-19601/home/193315384
+5.0,2.0,1643.0,199900.0,19601,"327 W Windsor St, Reading, PA 19601",38232333,Unknown,https://www.redfin.com/PA/Reading/327-W-Windsor-St-19601/home/38232333
+3.0,3.0,1140.0,225000.0,19601,"1457 Church St, Reading, PA 19601",38224921,Unknown,https://www.redfin.com/PA/Reading/1457-Church-St-19601/home/38224921
+5.0,5.0,1677.0,209900.0,19601,"724 Weiser St, Reading, PA 19601",38236896,Unknown,https://www.redfin.com/PA/Reading/724-Weiser-St-19601/home/38236896
+4.0,3.0,1118.0,155000.0,19601,"1120 Chester St, Reading, PA 19601",38268245,Unknown,https://www.redfin.com/PA/Reading/1120-Chester-St-19601/home/38268245
+5.0,5.0,3402.0,420000.0,19601,"115 Windsor St, Reading, PA 19601",38231596,Unknown,https://www.redfin.com/PA/Reading/115-Windsor-St-19601/home/38231596
+4.0,4.0,1075.0,174900.0,19601,"515 Schuylkill Ave, Reading, PA 19601",38241208,Unknown,https://www.redfin.com/PA/Reading/515-Schuylkill-Ave-19601/home/38241208
+6.0,1.0,4570.0,1399000.0,19380,"1406 Gorky Ln, West Chester, PA 19380",171541533,Unknown,https://www.redfin.com/PA/West-Chester/1406-Gorky-Ln-19380/home/171541533
+3.0,2.5,3475.0,849000.0,19380,"1431 Clover Ln, West Chester, PA 19380",38739714,Unknown,https://www.redfin.com/PA/West-Chester/1431-Clover-Ln-19380/home/38739714
+4.0,3.5,3836.0,950000.0,19380,"202 Netherfield Ln, West Chester, PA 19380",39042959,Unknown,https://www.redfin.com/PA/West-Chester/202-Netherfield-Ln-19380/home/39042959
+2.0,2.0,1515.0,375000.0,19380,"965 Roundhouse Ct, West Chester, PA 19380",57216623,Unknown,https://www.redfin.com/PA/West-Chester/965-Roundhouse-Ct-19380/home/57216623
+5.0,1.0,4322.0,979900.0,19380,"1038 Hershey Mill Rd, West Chester, PA 19380",38737792,Unknown,https://www.redfin.com/PA/West-Chester/1038-Hershey-Mill-Rd-19380/home/38737792
+3.0,2.0,1898.0,399000.0,19380,"407 Hartford Sq #50, West Chester, PA 19380",146174282,Unknown,https://www.redfin.com/PA/West-Chester/407-Hartford-Sq-19380/unit-50/home/146174282
+5.0,1.0,5548.0,1324900.0,19380,"520 Sunset Hollow Rd, West Chester, PA 19380",39043304,Unknown,https://www.redfin.com/PA/West-Chester/520-Sunset-Hollow-Rd-19380/home/39043304
+3.0,1.0,1554.0,615000.0,19380,"1191 Princeton Ln, West Chester, PA 19380",38734905,Unknown,https://www.redfin.com/PA/West-Chester/1191-Princeton-Ln-19380/home/38734905
+3.0,4.0,4258.0,899900.0,19380,"205 Sussex Rd, West Chester, PA 19380",39005041,Unknown,https://www.redfin.com/PA/West-Chester/205-Sussex-Rd-19380/home/39005041
+4.0,4.0,4105.0,1200000.0,19380,"602 Sousa Ln, West Chester, PA 19380",171541473,Unknown,https://www.redfin.com/PA/West-Chester/602-Sousa-Ln-19380/home/171541473
+3.0,1.0,2874.0,624000.0,19380,"157 Fringetree Dr, West Chester, PA 19380",39347281,Unknown,https://www.redfin.com/PA/West-Chester/157-Fringetree-Dr-19380/home/39347281
+3.0,2.0,720.0,15000.0,19380,"1451 Old Pottstown Pike, West Chester, PA 19380",38608273,Unknown,https://www.redfin.com/PA/West-Chester/1451-Old-Pottstown-Pike-19380/home/38608273
+2.0,2.0,1238.0,350000.0,19380,"910 Railway Sq #43, West Chester, PA 19380",201544088,Unknown,https://www.redfin.com/PA/West-Chester/910-Railway-Sq-19380/unit-43/home/201544088
+2.0,2.5,1168.0,335000.0,19380,"694 Metro Ct #6, West Chester, PA 19380",201477131,Unknown,https://www.redfin.com/PA/West-Chester/694-Metro-Ct-19380/unit-6/home/201477131
+1.0,1.0,1226.0,269000.0,19380,"803 Jefferson Way #803, West Chester, PA 19380",201561218,Unknown,https://www.redfin.com/PA/West-Chester/803-Jefferson-Way-19380/unit-803/home/201561218
+3.0,1.0,3041.0,899990.0,19380,"979 Eakins Cir, West Chester, PA 19380",198280968,Unknown,https://www.redfin.com/PA/West-Chester/979-Eakins-CIR-Unknown/home/198280968
+4.0,1.0,3362.0,699000.0,19380,"227 Silverbell Ct, West Chester, PA 19380",39343330,Unknown,https://www.redfin.com/PA/West-Chester/227-Silverbell-Ct-19380/home/39343330
+3.0,3.0,2200.0,440000.0,19380,"990 Fernhill Rd #105, West Chester, PA 19380",148345267,Unknown,https://www.redfin.com/PA/West-Chester/990-Fern-Hill-Rd-19380/unit-105/home/148345267
+3.0,2.0,1110.0,595000.0,19380,"1312 S Ship Rd, West Chester, PA 19380",38604095,Unknown,https://www.redfin.com/PA/West-Chester/1312-Ship-Rd-19380/home/38604095
+4.0,4.0,3280.0,725000.0,19380,"1414 Morstein Rd, West Chester, PA 19380",38729750,Unknown,https://www.redfin.com/PA/West-Chester/1414-Morstein-Rd-19380/home/38729750
+3.0,3.0,1175.0,375000.0,19020,"2303 Ogden Ave, Bensalem, PA 19020",38383554,Unknown,https://www.redfin.com/PA/Bensalem/2303-Ogden-Ave-19020/home/38383554
+1025.0,3.0,1504.0,369000.0,19020,"1025 Bedlington Pl, Bensalem, PA 19020",38409677,Unknown,https://www.redfin.com/PA/Bensalem/1025-Bedlington-Pl-19020/home/38409677
+4.0,1.0,1146.0,325000.0,19020,"820 Walnut Ave, Bensalem, PA 19020",38379088,Unknown,https://www.redfin.com/PA/Bensalem/820-Walnut-Ave-19020/home/38379088
+4.0,3.0,1756.0,495000.0,19020,"3041 Sheppard Rd, Bensalem, PA 19020",38419641,Unknown,https://www.redfin.com/PA/Bensalem/3041-Sheppard-Rd-19020/home/38419641
+3.0,2.5,2020.0,398000.0,19020,"1009 Burnley Ct, Bensalem, PA 19020",38409829,Unknown,https://www.redfin.com/PA/Bensalem/1009-Burnley-Ct-19020/home/38409829
+4.0,4.0,2386.0,559900.0,19020,"5106 N Hunters Ct Unit N, Bensalem, PA 19020",201525446,Unknown,https://www.redfin.com/PA/Bensalem/5106-N-Hunters-Ct-19020/unit-N/home/201525446
+5.0,3.0,3982.0,1200000.0,19020,"1200 William Penn Dr, Bensalem, PA 19020",38300337,Unknown,https://www.redfin.com/PA/Bensalem/1200-William-Penn-Dr-19020/home/38300337
+4.0,3.5,2254.0,699000.0,19020,"1113 Lavender Rd, Bensalem, PA 19020",201509643,Unknown,https://www.redfin.com/PA/Bensalem/1113-Lavender-Rd-19020/home/201509643
+3.0,1.0,2100.0,525000.0,19020,"124 Annapolis St, Bensalem, PA 19020",181448433,Unknown,https://www.redfin.com/PA/Bensalem/124-Annapolis-St-19020/home/181448433
+4.0,2.0,2051.0,449900.0,19020,"116-B Konefal St, Bensalem, PA 19020",145432588,Unknown,https://www.redfin.com/PA/Bensalem/116B-Konefal-St-19020/home/145432588
+3.0,3.0,1520.0,425000.0,19020,"3933 Wrexham Ct, Bensalem, PA 19020",38414562,Unknown,https://www.redfin.com/PA/Bensalem/3933-Wrexham-Ct-19020/home/38414562
+3.0,1.0,3028.0,650000.0,19020,"871 Roberts Rd, Bensalem, PA 19020",38414814,Unknown,https://www.redfin.com/PA/Bensalem/871-Roberts-Rd-19020/home/38414814
+4.0,2.5,2433.0,579900.0,19020,"3404 Parkview Dr, Bensalem, PA 19020",38391757,Unknown,https://www.redfin.com/PA/Bensalem/3404-Parkview-Dr-19020/home/38391757
+2.0,2.0,1136.0,335000.0,19020,"3550 Delancy Dr, Bensalem, PA 19020",38371594,Unknown,https://www.redfin.com/PA/Bensalem/3550-Delancy-Dr-19020/home/38371594
+1.0,2.0,1188.0,275000.0,19020,"323 Harvard Sq, Bensalem, PA 19020",38427733,Unknown,https://www.redfin.com/PA/Bensalem/323-Harvard-Sq-19020/home/38427733
+2.0,2.0,1145.0,299900.0,19020,"4535 Winding Brook Dr, Bensalem, PA 19020",38427095,Unknown,https://www.redfin.com/PA/Bensalem/4535-Winding-Brook-Dr-19020/home/38427095
+3.0,3.0,1400.0,410000.0,19020,"3072 Richlieu Rd, Bensalem, PA 19020",38373863,Unknown,https://www.redfin.com/PA/Bensalem/3072-Richlieu-Rd-19020/home/38373863
+3.0,3.0,1988.0,479900.0,19020,"6536 Timothy Ct, Bensalem, PA 19020",38424740,Unknown,https://www.redfin.com/PA/Bensalem/6536-Timothy-Ct-19020/home/38424740
+4.0,7.0,4024.0,789900.0,19020,"1194 Elberta Ave, Bensalem, PA 19020",38411578,Unknown,https://www.redfin.com/PA/Bensalem/1194-Elberta-Ave-19020/home/38411578
+2.0,2.0,1137.0,350000.0,19020,"1662 Gibson Rd, Bensalem, PA 19020",38240044,Unknown,https://www.redfin.com/PA/Bensalem/1662-Gibson-Rd-19020/home/38240044
+5.0,2.5,2692.0,675000.0,19067,"350 Richard Rd, Yardley, PA 19067",38745562,Unknown,https://www.redfin.com/PA/Yardley/350-Richard-Rd-19067/home/38745562
+4.0,2.0,1811.0,540000.0,19067,"2323 Lakeview Dr, Yardley, PA 19067",38732875,Unknown,https://www.redfin.com/PA/Yardley/2323-Lakeview-Dr-19067/home/38732875
+4.0,5.0,2878.0,895000.0,19067,"1608 S Crescent Blvd, Yardley, PA 19067",38740041,Unknown,https://www.redfin.com/PA/Yardley/1608-S-Crescent-Blvd-19067/home/38740041
+3.0,2.0,952.0,140000.0,19067,"3201 Claysburg Dr, Morrisville, PA 19067",160424913,Unknown,https://www.redfin.com/PA/Morrisville/3201-Claysburg-Dr-19067/home/160424913
+3.0,4.0,2316.0,780000.0,19067,"205 Marlboro Rd, Morrisville, PA 19067",38745830,Unknown,https://www.redfin.com/PA/Morrisville/205-Marlboro-Rd-19067/home/38745830
+4.0,4.0,3036.0,919900.0,19067,"695 Friar Dr, Yardley, PA 19067",38739997,Unknown,https://www.redfin.com/PA/Yardley/695-Friar-Dr-19067/home/38739997
+2.0,4.0,2712.0,829900.0,19067,"661 Nancy Rd, Morrisville, PA 19067",38745800,Unknown,https://www.redfin.com/PA/Morrisville/661-Nancy-Rd-19067/home/38745800
+3.0,3.0,2197.0,495000.0,19067,"1394 Pepperbush Ct, Yardley, PA 19067",38757912,Unknown,https://www.redfin.com/PA/Yardley/1394-Pepperbush-Ct-19067/home/38757912
+3.0,3.0,2236.0,635000.0,19067,"16 Glenolden Rd, Yardley, PA 19067",38743169,Unknown,https://www.redfin.com/PA/Yardley/16-Glenolden-Rd-19067/home/38743169
+4.0,4.0,3950.0,875000.0,19067,"1040 Harvard Dr, Yardley, PA 19067",38727356,Unknown,https://www.redfin.com/PA/Yardley/1040-Harvard-Dr-19067/home/38727356
+3.0,1.5,1760.0,319990.0,19067,"589 Elbridge Rd, Morrisville, PA 19067",38893745,Unknown,https://www.redfin.com/PA/Morrisville/589-Elbridge-Rd-19067/home/38893745
+4.0,4.0,3216.0,999900.0,19067,"1431 Silo Rd, Yardley, PA 19067",38755244,Unknown,https://www.redfin.com/PA/Yardley/1431-Silo-Rd-19067/home/38755244
+5.0,4.0,3269.0,1200000.0,19067,"1479 Greenmeadows Rd, Yardley, PA 19067",38717319,Unknown,https://www.redfin.com/PA/Yardley/1479-Greenmeadows-Rd-19067/home/38717319
+3.0,1.0,2316.0,459000.0,19067,"7403 Spruce Mill Dr, Morrisville, PA 19067",38772282,Unknown,https://www.redfin.com/PA/Morrisville/7403-Spruce-Mill-Dr-19067/home/38772282
+4.0,2.0,1056.0,125000.0,19067,"1119 Anders Dr, Morrisville, PA 19067",38672615,Unknown,https://www.redfin.com/PA/Morrisville/1119-Anders-Dr-19067/home/38672615
+2.0,2.0,1144.0,365000.0,19067,"14304 Cornerstone Dr, Yardley, PA 19067",38772554,Unknown,https://www.redfin.com/PA/Yardley/14304-Cornerstone-Dr-19067/home/38772554
+4.0,2.0,3425.0,824900.0,19067,"1103 Roeloffs Rd, Yardley, PA 19067",38750535,Unknown,https://www.redfin.com/PA/Yardley/1103-Roeloffs-Rd-19067/home/38750535
+3.0,3.0,2330.0,649900.0,19067,"177 Wildflower Cir, Yardley, PA 19067",38763429,Unknown,https://www.redfin.com/PA/Yardley/177-Wildflower-Cir-19067/home/38763429
+3.0,3.0,1127.0,335000.0,19067,"77 N Pennsylvania Ave Ave, Morrisville, PA 19067",38905467,Unknown,https://www.redfin.com/PA/Morrisville/77-N-Pennsylvania-Ave-19067/home/38905467
+3.0,3.0,2070.0,679000.0,19067,"548 Palmer Farm Dr, Yardley, PA 19067",38762913,Unknown,https://www.redfin.com/PA/Yardley/548-Palmer-Farm-Dr-19067/home/38762913
