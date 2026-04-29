@@ -1,159 +1,109 @@
-import { useState } from "react";
-import "./App.css";
+import React, { useState } from 'react';
+import './App.css';
+
+import HouseForm from './components/HouseForm';
+import ResultsPage from './components/ResultsPage';
+
+const API_BASE = 'http://127.0.0.1:8000';
 
 function App() {
-  const [city, setCity] = useState("");
-  const [desiredZip, setDesiredZip] = useState("");
+  const [page, setPage] = useState('home');
+  const [results, setResults] = useState(null);
+  const [formData, setFormData] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  const [price, setPrice] = useState(500000);
-  const [beds, setBeds] = useState(3);
-  const [baths, setBaths] = useState(2);
-  const [sqft, setSqft] = useState(1500);
+  const handleSubmit = async (form) => {
+    setLoading(true);
+    setFormData(form);
+    setResults(null);
 
-  const [result, setResult] = useState(null);
-
-  const priceOptions = [250000, 500000, 750000, 1000000, 1500000];
-  const bedOptions = [1, 2, 3, 4, 5];
-  const bathOptions = [1, 2, 3, 4];
-  const sqftOptions = [800, 1200, 1600, 2200, 3000];
-
-  const handleSubmit = async () => {
     const payload = {
-      city: city,
-      desired_zip: desiredZip,
-      price: Number(price),
-      beds: Number(beds),
-      baths: Number(baths),
-      sqft: Number(sqft),
+      city: form.city || '',
+      zip_code: form.zip_code,
+      max_price: Number(form.max_price),
+      min_beds: Number(form.min_beds),
+      min_baths: Number(form.min_baths),
+      min_sqft: Number(form.min_sqft),
     };
 
-    const response = await fetch("http://127.0.0.1:8000/recommend", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
+    try {
+      const response = await fetch(`${API_BASE}/top-houses-any-zip`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
 
-    const data = await response.json();
-    setResult(data);
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.detail || 'Backend request failed');
+      }
+
+      setResults(result);
+    } catch (error) {
+      console.error('Backend error:', error);
+      setResults({
+        count: 0,
+        message: 'Could not get listings. Make sure FastAPI is running and the backend endpoint is /top-houses-any-zip.',
+        houses: [],
+        error: String(error.message || error),
+      });
+    }
+
+    setLoading(false);
+    setPage('results');
   };
 
-  const BubbleGroup = ({ title, options, selected, setSelected, prefix = "", suffix = "" }) => (
-    <div className="bubble-section">
-      <h3>{title}</h3>
-      <div className="bubble-row">
-        {options.map((option) => (
-          <button
-            key={option}
-            className={selected === option ? "bubble active" : "bubble"}
-            onClick={() => setSelected(option)}
-          >
-            {prefix}{option.toLocaleString()}{suffix}
-          </button>
-        ))}
-      </div>
-    </div>
-  );
+  const handleReset = () => {
+    setResults(null);
+    setFormData(null);
+    setPage('home');
+  };
 
   return (
-    <div className="page">
-      <div className="card">
-        <h1>Best Sales PA</h1>
-        <p className="subtitle">
-          Find out whether your target home is a steal, fair price, or overpriced.
-        </p>
+    <div className="app">
+      <header className="site-header">
+        <div className="header-inner">
+          <div className="logo">
+            <span className="logo-icon">⌂</span>
+            <span className="logo-text">KeyStone<em>PA</em></span>
+          </div>
 
-        <div className="input-row">
-          <input
-            placeholder="City you want to live in"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-          />
+          <p className="tagline">Pennsylvania's smartest home finder</p>
 
-          <input
-            placeholder="Desired zip code"
-            value={desiredZip}
-            onChange={(e) => setDesiredZip(e.target.value)}
-          />
+          <div className="nav-buttons">
+            <button onClick={() => setPage('home')} className="btn btn-secondary">
+              Home
+            </button>
+          </div>
         </div>
+      </header>
 
-        <BubbleGroup
-          title="Price Range"
-          options={priceOptions}
-          selected={price}
-          setSelected={setPrice}
-          prefix="$"
-        />
-
-        <BubbleGroup
-          title="Beds"
-          options={bedOptions}
-          selected={beds}
-          setSelected={setBeds}
-          suffix=" bed"
-        />
-
-        <BubbleGroup
-          title="Baths"
-          options={bathOptions}
-          selected={baths}
-          setSelected={setBaths}
-          suffix=" bath"
-        />
-
-        <BubbleGroup
-          title="Square Feet"
-          options={sqftOptions}
-          selected={sqft}
-          setSelected={setSqft}
-          suffix=" sqft"
-        />
-
-        <button className="submit-btn" onClick={handleSubmit}>
-          Analyze House Deal
-        </button>
-
-        {result && (
-          <div className="result-card">
-            <h2>{result.deal_quality}</h2>
-
-            <p>
-              <strong>Desired Zip:</strong> {result.desired_zip}
-            </p>
-
-            <p>
-              <strong>Predicted Market Region:</strong> {result.predicted_region}
-            </p>
-
-            <p>
-              <strong>Estimated Market Price:</strong> $
-              {Number(result.estimated_market_price).toLocaleString()}
-            </p>
-
-            <p>
-              <strong>Your Target Price:</strong> $
-              {Number(result.user_price).toLocaleString()}
-            </p>
-
-            <p>
-              <strong>Price per SQFT:</strong> $
-              {Number(result.price_per_sqft).toLocaleString()} / sqft
-            </p>
-
-            <p>
-              <strong>Estimated Savings:</strong> $
-              {Number(result.estimated_savings).toLocaleString()}
-            </p>
-
-            <p>
-              <strong>Savings Percent:</strong> {result.savings_percent}%
-            </p>
-
-            <p className="pitch">{result.sales_pitch}</p>
+      <main className="main-content">
+        {loading && (
+          <div className="loading-screen">
+            <div className="loading-spinner"></div>
+            <p className="loading-text">Searching Redfin and scoring deals…</p>
+            <p className="loading-sub">This can take a moment because the backend is scraping live listings.</p>
           </div>
         )}
-      </div>
+
+        {!loading && page === 'home' && (
+          <HouseForm onSubmit={handleSubmit} />
+        )}
+
+        {!loading && page === 'results' && results && (
+          <ResultsPage
+            results={results}
+            formData={formData}
+            onReset={handleReset}
+          />
+        )}
+      </main>
+
+      <footer className="site-footer">
+        <p>© 2026 KeyStonePA · Real estate deal scoring demo · Not financial advice</p>
+      </footer>
     </div>
   );
 }
