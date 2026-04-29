@@ -50,3 +50,26 @@ pip install -r requirements.txt
 playwright install chromium
 python train_model.py
 uvicorn main:app --reload
+```
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+### Backend Endpoint
+```
+POST /top-houses-any-zip
+```
+
+### Example request:
+```json
+{
+  "city": "Southampton",
+  "zip_code": "18966",
+  "max_price": 750000,
+  "min_beds": 3,
+  "min_baths": 2,
+  "min_sqft": 1500
+}
+```
